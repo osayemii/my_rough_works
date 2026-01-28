@@ -1,0 +1,738 @@
+.expectations-tracker {
+  background: var(--card-bg, #ffffff);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--border-color, #e5e7eb);
+}
+
+.tracker-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.tracker-title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary, #111827);
+}
+
+.tracker-summary {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.summary-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.summary-item.critical {
+  color: var(--critical-color, #ef4444);
+  font-weight: 600;
+}
+
+.summary-item.blocked {
+  color: var(--blocked-color, #991b1b);
+  font-weight: 600;
+}
+
+.summary-label {
+  color: var(--text-secondary, #6b7280);
+}
+
+.summary-value {
+  font-weight: 600;
+  color: var(--text-primary, #111827);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  background: transparent;
+}
+
+.summary-value.has-risk {
+  color: var(--warning-color, #d97706);
+}
+
+.summary-value.has-nudges {
+  color: var(--info-color, #2563eb);
+}
+
+.tracker-view-toggle {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid var(--border-color, #e5e7eb);
+}
+
+.toggle-btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary, #6b7280);
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  transition: all 0.2s;
+}
+
+.toggle-btn:hover {
+  color: var(--text-primary, #111827);
+  background: var(--bg-hover, #f9fafb);
+}
+
+.toggle-btn.active {
+  color: var(--primary-color, #3b82f6);
+  border-bottom-color: var(--primary-color, #3b82f6);
+  font-weight: 600;
+}
+
+/* Nudges Container */
+.nudges-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.no-nudges {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--text-secondary, #6b7280);
+  font-size: 1.1rem;
+}
+
+.nudges-summary {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.nudges-info p {
+  font-size: 1.1rem;
+  color: var(--text-primary, #111827);
+  margin-bottom: 1rem;
+}
+
+.view-nudges-btn {
+  background: var(--primary-color, #3b82f6);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.view-nudges-btn:hover {
+  background: var(--primary-hover, #2563eb);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+/* Nudge Popup Modal */
+.nudge-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  backdrop-filter: blur(4px);
+}
+
+.nudge-popup {
+  background: var(--card-bg, #ffffff);
+  border-radius: 16px;
+  max-width: 600px;
+  width: 90%;
+  max-height: 80vh;
+  overflow: hidden;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  animation: popupSlideIn 0.3s ease-out;
+}
+
+@keyframes popupSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.nudge-popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--border-color, #e5e7eb);
+  background: var(--bg-secondary, #f9fafb);
+}
+
+.nudge-popup-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-btn {
+  background: var(--primary-color, #3b82f6);
+  color: white;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 1rem;
+}
+
+.nav-btn:hover:not(:disabled) {
+  background: var(--primary-hover, #2563eb);
+  transform: scale(1.1);
+}
+
+.nav-btn:disabled {
+  background: var(--text-secondary, #6b7280);
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.nudge-counter {
+  font-weight: 600;
+  color: var(--text-primary, #111827);
+  font-size: 0.9rem;
+}
+
+.close-popup-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--text-secondary, #6b7280);
+  cursor: pointer;
+  padding: 0.25rem;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.close-popup-btn:hover {
+  background: var(--error-bg, #fef2f2);
+  color: var(--error-color, #ef4444);
+}
+
+.nudge-popup-content {
+  padding: 1.5rem;
+}
+
+.nudge-card {
+  background: var(--card-bg, #ffffff);
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--border-color, #e5e7eb);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.nudge-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #3b82f6 0%, #8b5cf6 50%, #06b6d4 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.nudge-card:hover::before {
+  opacity: 1;
+}
+
+.nudge-card:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  transform: translateY(-4px) scale(1.02);
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
+.nudge-card.nudge-critical:hover {
+  box-shadow: 0 20px 25px -5px rgba(239, 68, 68, 0.2), 0 10px 10px -5px rgba(239, 68, 68, 0.1);
+  border-color: rgba(239, 68, 68, 0.5);
+}
+
+.nudge-card.nudge-high:hover {
+  box-shadow: 0 20px 25px -5px rgba(248, 113, 113, 0.2), 0 10px 10px -5px rgba(248, 113, 113, 0.1);
+  border-color: rgba(248, 113, 113, 0.5);
+}
+
+.nudge-card.nudge-medium:hover {
+  box-shadow: 0 20px 25px -5px rgba(251, 191, 36, 0.2), 0 10px 10px -5px rgba(251, 191, 36, 0.1);
+  border-color: rgba(251, 191, 36, 0.5);
+}
+
+.nudge-card.nudge-low:hover {
+  box-shadow: 0 20px 25px -5px rgba(74, 222, 128, 0.2), 0 10px 10px -5px rgba(74, 222, 128, 0.1);
+  border-color: rgba(74, 222, 128, 0.5);
+}
+
+.nudge-card.nudge-critical {
+  border-left-color: var(--critical-color, #ef4444);
+  background: var(--critical-bg, #fef2f2);
+}
+
+.nudge-card.nudge-high {
+  border-left-color: var(--high-color, #f87171);
+  background: var(--high-bg, #fff7ed);
+}
+
+.nudge-card.nudge-medium {
+  border-left-color: var(--medium-color, #fbbf24);
+  background: var(--medium-bg, #fffbeb);
+}
+
+.nudge-card.nudge-low {
+  border-left-color: var(--low-color, #4ade80);
+  background: var(--low-bg, #f0fdf4);
+}
+
+.nudge-header {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.nudge-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.nudge-content {
+  flex: 1;
+}
+
+.nudge-title-section {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.nudge-task-title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary, #111827);
+}
+
+.nudge-message {
+  margin: 0.5rem 0;
+  color: var(--text-primary, #111827);
+  line-height: 1.6;
+}
+
+.nudge-meta {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.75rem;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  color: var(--text-secondary, #6b7280);
+}
+
+.nudge-assignee,
+.nudge-due {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.nudge-due.overdue {
+  color: var(--critical-color, #ef4444);
+  font-weight: 600;
+}
+
+.nudge-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-color, #e5e7eb);
+}
+
+.nudge-action-btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border-color, #e5e7eb);
+  background: var(--bg-primary, #ffffff);
+  color: var(--text-primary, #111827);
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.nudge-action-btn:hover {
+  background: var(--bg-hover, #f9fafb);
+  border-color: var(--primary-color, #3b82f6);
+}
+
+.nudge-action-btn.mark-read {
+  background: var(--primary-color, #3b82f6);
+  color: white;
+  border-color: var(--primary-color, #3b82f6);
+}
+
+.nudge-action-btn.mark-read:hover {
+  background: var(--primary-hover, #2563eb);
+}
+
+.nudge-action-btn.dismiss {
+  color: var(--text-secondary, #6b7280);
+}
+
+.nudge-action-btn.dismiss:hover {
+  background: var(--error-bg, #fef2f2);
+  color: var(--error-color, #ef4444);
+  border-color: var(--error-color, #ef4444);
+}
+
+/* Risk Assessment Container */
+.risks-container {
+  margin-top: 1rem;
+}
+
+.risks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.risk-item {
+  background: var(--card-bg, #ffffff);
+  border-radius: 12px;
+  padding: 1rem;
+  border: 1px solid var(--border-color, #e5e7eb);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.risk-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #f59e0b 0%, #ef4444 50%, #dc2626 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.risk-item:hover::before {
+  opacity: 1;
+}
+
+.risk-item:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  transform: translateY(-4px) scale(1.02);
+  border-color: rgba(245, 158, 11, 0.3);
+}
+
+.risk-item.has-risk:hover {
+  box-shadow: 0 20px 25px -5px rgba(245, 158, 11, 0.2), 0 10px 10px -5px rgba(245, 158, 11, 0.1);
+  border-color: rgba(245, 158, 11, 0.5);
+}
+
+.risk-item.has-risk {
+  border-left: 4px solid var(--warning-color, #f59e0b);
+}
+
+.risk-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.risk-item-info {
+  flex: 1;
+}
+
+.risk-task-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary, #111827);
+}
+
+.risk-item-meta {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary, #6b7280);
+  flex-wrap: wrap;
+}
+
+.risk-assignee,
+.risk-status {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.risk-reason {
+  margin: 0.75rem 0;
+  padding: 0.75rem;
+  background: var(--bg-secondary, #f3f4f6);
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.risk-reason-label {
+  font-weight: 600;
+  color: var(--text-primary, #111827);
+  margin-right: 0.5rem;
+}
+
+.risk-reason-text {
+  color: var(--text-secondary, #6b7280);
+}
+
+.risk-details {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.75rem;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+  color: var(--text-secondary, #6b7280);
+}
+
+.risk-detail {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.risk-detail.overdue {
+  color: var(--critical-color, #ef4444);
+  font-weight: 600;
+}
+
+/* Risk Badges */
+.risk-badge {
+  padding: 0.375rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.risk-badge-critical {
+  background: var(--critical-bg, #fef2f2);
+  color: var(--critical-color, #ef4444);
+}
+
+.risk-badge-high {
+  background: var(--high-bg, #fff7ed);
+  color: var(--high-color, #f87171);
+}
+
+.risk-badge-medium {
+  background: var(--medium-bg, #fffbeb);
+  color: var(--medium-color, #f59e0b);
+}
+
+.risk-badge-low {
+  background: var(--low-bg, #f0fdf4);
+  color: var(--low-color, #22c55e);
+}
+
+/* Dark theme support */
+[data-theme="dark"] .expectations-tracker {
+  background: #1f2937;
+  border-color: #374151;
+}
+
+[data-theme="dark"] .tracker-title {
+  color: #f9fafb;
+}
+
+[data-theme="dark"] .nudge-card {
+  background: #1f2937;
+  border-color: #374151;
+}
+
+[data-theme="dark"] .nudge-card.nudge-critical {
+  background: #7f1d1d;
+  border-color: #991b1b;
+}
+
+[data-theme="dark"] .nudge-card.nudge-high {
+  background: #7c2d12;
+  border-color: #c2410c;
+}
+
+[data-theme="dark"] .nudge-card.nudge-medium {
+  background: #78350f;
+  border-color: #b45309;
+}
+
+[data-theme="dark"] .nudges-info p {
+  color: #f9fafb;
+}
+
+[data-theme="dark"] .view-nudges-btn {
+  background: #3b82f6;
+}
+
+[data-theme="dark"] .view-nudges-btn:hover {
+  background: #2563eb;
+}
+
+/* Dark theme for popup */
+[data-theme="dark"] .nudge-popup {
+  background: #1f2937;
+  border-color: #374151;
+}
+
+[data-theme="dark"] .nudge-popup-header {
+  background: #111827;
+  border-color: #374151;
+}
+
+[data-theme="dark"] .nudge-counter {
+  color: #f9fafb;
+}
+
+[data-theme="dark"] .close-popup-btn {
+  color: #9ca3af;
+}
+
+[data-theme="dark"] .close-popup-btn:hover {
+  background: #7f1d1d;
+  color: #fca5a5;
+}
+
+[data-theme="dark"] .nudge-popup-content {
+  background: #1f2937;
+}
+
+[data-theme="dark"] .nudge-popup-content.nudge-critical {
+  background: #7f1d1d;
+}
+
+[data-theme="dark"] .nudge-popup-content.nudge-high {
+  background: #7c2d12;
+}
+
+[data-theme="dark"] .nudge-popup-content.nudge-medium {
+  background: #78350f;
+}
+
+[data-theme="dark"] .nudge-popup-content.nudge-low {
+  background: #14532d;
+}
+
+[data-theme="dark"] .nudge-task-title {
+  color: #f9fafb;
+}
+
+[data-theme="dark"] .nudge-message {
+  color: #d1d5db;
+}
+
+[data-theme="dark"] .risk-item {
+  background: #1f2937;
+  border-color: #374151;
+}
+
+[data-theme="dark"] .risk-item.has-risk {
+  background: #451a03;
+  border-color: #92400e;
+}
+
+[data-theme="dark"] .risk-task-title {
+  color: #f9fafb;
+}
+
+/* Dark theme for blocked tasks */
+[data-theme="dark"] .blocked-task-card {
+  background: linear-gradient(135deg, #7f1d1d 0%, #991b1b 100%);
+  border-color: #dc2626;
+  border-radius: 12px;
+  padding: 1rem;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+[data-theme="dark"] .blocked-task-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #ef4444 0%, #dc2626 50%, #b91c1c 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+[data-theme="dark"] .blocked-task-card:hover::before {
+  opacity: 1;
+}
+
+[data-theme="dark"] .blocked-task-card:hover {
+  box-shadow: 0 20px 25px -5px rgba(239, 68, 68, 0.3), 0 10px 10px -5px rgba(239, 68, 68, 0.2);
+  transform: translateY(-4px) scale(1.02);
+  border-color: rgba(239, 68, 68, 0.5);
+}
+
+[data-theme="dark"] .blocked-task-title {
+  color: #fca5a5;
+}
+
+[data-theme="dark"] .blocked-assignee,
+[data-theme="dark"] .blocked-due {
+  color: #fca5a5;
+}
+
+[data-theme="dark"] .blocked-description {
+  color: #fca5a5;
+}
+
+[data-theme="dark"] .blocked-action-btn.unblock {
+  background: #059669;
+  color: white;
+}
+
+[data-theme="dark"] .blocked-action-btn.unblock:hover {
+  background: #047857;
+}
+
