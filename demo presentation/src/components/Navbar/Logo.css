@@ -1,0 +1,59 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.logo-svg {
+  color: var(--text-primary);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo-bracket {
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.logo-dot {
+  opacity: 1;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.logo-glow {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-brand:hover .logo-svg {
+  transform: scale(1.1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.navbar-brand:hover .logo-bracket {
+  opacity: 1;
+}
+
+.navbar-brand:hover .logo-dot {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.navbar-brand:hover .logo-glow {
+  opacity: 0.3;
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .logo-svg {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-svg {
+    width: 28px;
+    height: 28px;
+  }
+}
+

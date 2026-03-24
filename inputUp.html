@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Floating Label</title>
+<style>
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.div {
+  position: relative;
+}
+
+input {
+  outline: none;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+span {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: white;
+  transition: all .3s ease;
+  padding: 0 2px;
+}
+</style>
+</head>
+<body>
+
+<div class="div">
+  <span id="span">First Name:</span>
+  <input type="text" id="input">
+</div>
+
+<script>
+const input = document.getElementById('input');
+const span = document.getElementById('span');
+
+input.addEventListener('focus', () => {
+  span.style.top = '-9px';
+  span.style.fontSize = '12px';
+});
+
+input.addEventListener('blur', () => {
+  if (!input.value) {
+    span.style.top = '8px';
+    span.style.fontSize = '16px';
+  }
+});
+</script>
+
+</body>
+</html>

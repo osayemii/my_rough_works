@@ -1,0 +1,239 @@
+/* =======================================================
+   Skills section
+   ======================================================= */
+
+.skills {
+  min-height: 100vh;
+  padding: 8rem 2rem;
+  position: relative;
+}
+
+.skills__container {
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+}
+
+/* ── section heading ─────────────────────────────────────── */
+.section-title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 800;
+  text-align: center;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  opacity: 0;
+  transform: translateY(-24px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.skills.animate-in .section-title {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── deck wrapper — gives the absolutely-positioned cards
+      a sized box to sit inside ──────────────────────────── */
+.skills__deck-wrap {
+  width: 100%;
+  max-width: 400px;
+  /* height = card height + back-card offsets (3 cards × 10 px each) */
+  height: 430px;
+  position: relative;
+
+  opacity: 0;
+  transform: translateY(40px) scale(0.96);
+  transition: opacity 0.9s ease 0.15s, transform 0.9s cubic-bezier(0.34, 1.56, 0.64, 1) 0.15s;
+}
+
+.skills.animate-in .skills__deck-wrap {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+/* CardSwap root needs to fill its wrapper */
+.card-swap-root {
+  width: 100%;
+  height: 100%;
+}
+
+/* =======================================================
+   Individual skill card
+   ======================================================= */
+
+.skill-card {
+  width: 100%;
+  height: 100%;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 24px;
+  padding: 2rem 2rem 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  position: relative;
+  overflow: hidden;
+  /* subtle glow from the card's accent colour */
+  --card-accent: var(--primary-color);
+}
+
+/* top-edge glow bar */
+.skill-card::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--card-accent), transparent);
+  border-radius: 24px 24px 0 0;
+}
+
+/* ambient soft light blob */
+.skill-card::after {
+  content: '';
+  position: absolute;
+  top: -60px;
+  left: -60px;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, color-mix(in srgb, var(--card-accent) 20%, transparent) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+/* ── card header ─────────────────────────────────────────── */
+.skill-card__header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.skill-card__icon {
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.skill-card__title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--card-accent);
+  margin: 0;
+}
+
+/* ── skill list ──────────────────────────────────────────── */
+.skill-card__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 1;
+}
+
+.skill-card__item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.skill-card__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.skill-card__name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.skill-card__pct {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+/* ── progress track ──────────────────────────────────────── */
+.skill-card__track {
+  width: 100%;
+  height: 5px;
+  background: color-mix(in srgb, var(--card-accent) 15%, var(--bg-primary));
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.skill-card__fill {
+  height: 100%;
+  width: 0%;
+  border-radius: 10px;
+  background: linear-gradient(90deg, var(--card-accent), color-mix(in srgb, var(--card-accent) 60%, white));
+  position: relative;
+  /* Animate progress bar width when the card is front */
+  transition: width 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Animate fill width once the card is exposed (front) –
+   CSS custom property written via JS inline style */
+.card-swap-front .skill-card__fill {
+  width: var(--fill-w, 0%);
+}
+
+/* shimmer overlay on the fill */
+.skill-card__fill::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.35) 50%,
+    transparent 100%
+  );
+  animation: shimmer 2.2s infinite;
+}
+
+@keyframes shimmer {
+  from { transform: translateX(-100%); }
+  to   { transform: translateX(100%);  }
+}
+
+/* ── cycle hint ──────────────────────────────────────────── */
+.skill-card__hint {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  text-align: right;
+  margin: 0;
+  opacity: 0.5;
+  letter-spacing: 0.03em;
+}
+
+/* =======================================================
+   Responsive
+   ======================================================= */
+@media (max-width: 768px) {
+  .skills {
+    padding: 6rem 1.2rem;
+  }
+
+  .skills__deck-wrap {
+    max-width: 100%;
+    height: 420px;
+  }
+}
+
+@media (max-width: 400px) {
+  .skill-card {
+    padding: 1.5rem 1.4rem 1rem;
+  }
+
+  .skills__deck-wrap {
+    height: 450px;
+  }
+}

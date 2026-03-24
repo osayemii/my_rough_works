@@ -1,0 +1,25 @@
+/* =========================================================
+   CardSwap layout — all cards are absolutely stacked inside
+   the root container.
+   ========================================================= */
+
+.card-swap-root {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  /* Height is driven by the tallest card child */
+  height: 100%;
+}
+
+.card-swap-item {
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  will-change: transform, opacity;
+  /* pointer-events handled inline so only the front card is clickable */
+  pointer-events: none;
+}
+
+.card-swap-front {
+  pointer-events: auto;
+}

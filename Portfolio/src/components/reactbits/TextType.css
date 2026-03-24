@@ -1,0 +1,9 @@
+.text-type {
+  display: inline-block;
+}
+
+.text-type__cursor {
+  font-weight: 200;
+  margin-left: 2px;
+  /* GSAP handles the blink but we define core positioning here */
+}

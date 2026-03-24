@@ -1,0 +1,3788 @@
+{
+  "sha": "2731842071978a8e0076b870d97f5c65f2a13482",
+  "url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/2731842071978a8e0076b870d97f5c65f2a13482",
+  "tree": [
+    {
+      "path": ".assetsignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "799c76f4ca388ebd5b7d4de67646603b249e28d7",
+      "size": 28,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/799c76f4ca388ebd5b7d4de67646603b249e28d7"
+    },
+    {
+      "path": ".context",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e3da29c4157bbb0d0b675590d1a9f4a4f2dc5380",
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/e3da29c4157bbb0d0b675590d1a9f4a4f2dc5380"
+    },
+    {
+      "path": ".context/new-component.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "731a68bf428523d0da465f2217af3780f1c961ed",
+      "size": 10615,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/731a68bf428523d0da465f2217af3780f1c961ed"
+    },
+    {
+      "path": ".eslintrc.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b110e2274a5f0764d51bd4c6ff2058918289b50",
+      "size": 638,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/8b110e2274a5f0764d51bd4c6ff2058918289b50"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9be642a4ec074e27266a7155b39bca2ab411b45b",
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/9be642a4ec074e27266a7155b39bca2ab411b45b"
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6ddc33a8e6ff63bc7576f26c3b35ef9ecc6abe8",
+      "size": 847,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/d6ddc33a8e6ff63bc7576f26c3b35ef9ecc6abe8"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "448f3f20f23bd2b7b4f2198bc4af40430436a0bd",
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/448f3f20f23bd2b7b4f2198bc4af40430436a0bd"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/1-bug-report.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "660cb723b31273b578f58d9f7d3edbb9b068b646",
+      "size": 1542,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/660cb723b31273b578f58d9f7d3edbb9b068b646"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/2-feature-request.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2c8a53873dc936d943000b6d2affb3abb3f0472",
+      "size": 882,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/a2c8a53873dc936d943000b6d2affb3abb3f0472"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f456bf2473a92b938481bbe9ad25d3ccf8054660",
+      "size": 392,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/f456bf2473a92b938481bbe9ad25d3ccf8054660"
+    },
+    {
+      "path": ".prettierignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee179f43def5323224eaebca291356db63bb0920",
+      "size": 346,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/ee179f43def5323224eaebca291356db63bb0920"
+    },
+    {
+      "path": ".prettierrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85e84fe710ea4d3ef600b9bcfd4b32d8ecdd1bb7",
+      "size": 320,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/85e84fe710ea4d3ef600b9bcfd4b32d8ecdd1bb7"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c1fb615099ba4ad2a6b029ffaee7f8853c20fa4",
+      "size": 2669,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/7c1fb615099ba4ad2a6b029ffaee7f8853c20fa4"
+    },
+    {
+      "path": "LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6425315416e94469f28d0223a09f7285b2f785ab",
+      "size": 1303,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/6425315416e94469f28d0223a09f7285b2f785ab"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "817acf6948c3d81b22d81e207c44906a226be721",
+      "size": 7508,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/817acf6948c3d81b22d81e207c44906a226be721"
+    },
+    {
+      "path": "index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb2fe4e19070a8ff026e48fefd713601dfd800e8",
+      "size": 5101,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/bb2fe4e19070a8ff026e48fefd713601dfd800e8"
+    },
+    {
+      "path": "jsrepo.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47b20a147016ea66f2927f852601d3c31528823d",
+      "size": 4793,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/47b20a147016ea66f2927f852601d3c31528823d"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0fd508bbd244b6055996464f3651844deb2f6e5",
+      "size": 328132,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/d0fd508bbd244b6055996464f3651844deb2f6e5"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a82e103202c638669030bcaf774864f17d7ab00d",
+      "size": 2437,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/a82e103202c638669030bcaf774864f17d7ab00d"
+    },
+    {
+      "path": "public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cf6b6f4b81b48808631e4538003076f1926b3dfe",
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/cf6b6f4b81b48808631e4538003076f1926b3dfe"
+    },
+    {
+      "path": "public/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a07f76f3ed3b6b27edc0db26abc45dd6877437e4",
+      "size": 284,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/a07f76f3ed3b6b27edc0db26abc45dd6877437e4"
+    },
+    {
+      "path": "public/android-chrome-192x192.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cda29d31a7b311b73f5a5f4b2a8a3b5c3ce6a872",
+      "size": 12422,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/cda29d31a7b311b73f5a5f4b2a8a3b5c3ce6a872"
+    },
+    {
+      "path": "public/android-chrome-512x512.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1116ad728c9f91dffabf37e8af1427d63d33a4b1",
+      "size": 30100,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/1116ad728c9f91dffabf37e8af1427d63d33a4b1"
+    },
+    {
+      "path": "public/apple-touch-icon.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac13da1e2f3a917db39068d0213624ed5b5ab90b",
+      "size": 11156,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/ac13da1e2f3a917db39068d0213624ed5b5ab90b"
+    },
+    {
+      "path": "public/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "079aec35db9fb910634c2150548c4d4b014764d8",
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/079aec35db9fb910634c2150548c4d4b014764d8"
+    },
+    {
+      "path": "public/assets/3d",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d6eb97f06c68edc2f399d5f0b192ba5822f81034",
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/d6eb97f06c68edc2f399d5f0b192ba5822f81034"
+    },
+    {
+      "path": "public/assets/3d/bar.glb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f62e2f2e398b9ffe82716d251f320414dd70e70a",
+      "size": 41552,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/f62e2f2e398b9ffe82716d251f320414dd70e70a"
+    },
+    {
+      "path": "public/assets/3d/cube.glb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fba306d60e87ef7a373c23544586af093f742b2",
+      "size": 14024,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/6fba306d60e87ef7a373c23544586af093f742b2"
+    },
+    {
+      "path": "public/assets/3d/lens.glb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a4a82d6329b3b6749048f2241803961b8f467bc",
+      "size": 16048,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/5a4a82d6329b3b6749048f2241803961b8f467bc"
+    },
+    {
+      "path": "public/assets/demo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6ce03e42635444b60e40b7b97d5d131d04f278c2",
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/6ce03e42635444b60e40b7b97d5d131d04f278c2"
+    },
+    {
+      "path": "public/assets/demo/cs1.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53cb49b29e17acb8754396cacb0db1d8364f61de",
+      "size": 675226,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/53cb49b29e17acb8754396cacb0db1d8364f61de"
+    },
+    {
+      "path": "public/assets/demo/cs2.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64a5fbe0428ebe5364795a98c79f7c57d5a42a9e",
+      "size": 647774,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/64a5fbe0428ebe5364795a98c79f7c57d5a42a9e"
+    },
+    {
+      "path": "public/assets/demo/cs3.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c222e5dee8d4fecc6b0eb2fa134f284b43f3a99",
+      "size": 643512,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/9c222e5dee8d4fecc6b0eb2fa134f284b43f3a99"
+    },
+    {
+      "path": "public/assets/demo/grain.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adbae005ae79c14facafd9e6e049c8370d18616f",
+      "size": 59244,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/adbae005ae79c14facafd9e6e049c8370d18616f"
+    },
+    {
+      "path": "public/assets/demo/iconpattern.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d86a4b47c4e834b975bf90a2c9b2b878030d59ba",
+      "size": 56449,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/d86a4b47c4e834b975bf90a2c9b2b878030d59ba"
+    },
+    {
+      "path": "public/assets/demo/person.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82e4817bd6da15ed7e7ab6f4df86ee112e3d5c01",
+      "size": 53160,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/82e4817bd6da15ed7e7ab6f4df86ee112e3d5c01"
+    },
+    {
+      "path": "public/assets/demo/poster.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "835215f8671bd9210bad13e546edf27335c9b7ce",
+      "size": 48824,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/835215f8671bd9210bad13e546edf27335c9b7ce"
+    },
+    {
+      "path": "public/assets/fonts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09002a622e7224b8530ca5b676bba5104ec88b42",
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/09002a622e7224b8530ca5b676bba5104ec88b42"
+    },
+    {
+      "path": "public/assets/fonts/figtreeblack.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "526fe1dda4c9864db150ceecac9f9adb6992ea05",
+      "size": 40276,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/526fe1dda4c9864db150ceecac9f9adb6992ea05"
+    },
+    {
+      "path": "public/assets/gif",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c464db31efc0062a745be3469a613a0273a1b59d",
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/c464db31efc0062a745be3469a613a0273a1b59d"
+    },
+    {
+      "path": "public/assets/gif/components.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba99128c8991972d92a68ced6762f80dc0ac4038",
+      "size": 7509243,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/ba99128c8991972d92a68ced6762f80dc0ac4038"
+    },
+    {
+      "path": "public/assets/gif/messages.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da8d6d5f8c7f7e42e1b42fd82e104668979b67ab",
+      "size": 434565,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/da8d6d5f8c7f7e42e1b42fd82e104668979b67ab"
+    },
+    {
+      "path": "public/assets/gif/switch.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f36b8eac772828bedcbf94ba1f08499eb6cd16d3",
+      "size": 524267,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/f36b8eac772828bedcbf94ba1f08499eb6cd16d3"
+    },
+    {
+      "path": "public/assets/rbp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "67a94d67ad22e8445d746a721376ec567c08dd37",
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/67a94d67ad22e8445d746a721376ec567c08dd37"
+    },
+    {
+      "path": "public/assets/rbp/blocks.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f6dacc68b91a50fa90c97f349deabeb514d5aa3",
+      "size": 37780,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/1f6dacc68b91a50fa90c97f349deabeb514d5aa3"
+    },
+    {
+      "path": "public/assets/rbp/components.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4130903132813415e538b663e704d971304e640f",
+      "size": 33164,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/4130903132813415e538b663e704d971304e640f"
+    },
+    {
+      "path": "public/assets/showcase",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "459dfd00626bb9c6a656539dc57829260d511ef2",
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/459dfd00626bb9c6a656539dc57829260d511ef2"
+    },
+    {
+      "path": "public/assets/showcase/showcase-afaq.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80a240466f374fbcbcda4b125c2242a65080aa63",
+      "size": 32242,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/80a240466f374fbcbcda4b125c2242a65080aa63"
+    },
+    {
+      "path": "public/assets/showcase/showcase-deepraj.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e70543ad56a077c1227c020fa95c5a413ffcd7c3",
+      "size": 58176,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/e70543ad56a077c1227c020fa95c5a413ffcd7c3"
+    },
+    {
+      "path": "public/assets/showcase/showcase-devraj.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2325a714d1f5a9c913f6ac010eeeba0c376afda",
+      "size": 89984,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/e2325a714d1f5a9c913f6ac010eeeba0c376afda"
+    },
+    {
+      "path": "public/assets/showcase/showcase-dominik.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "babc8cab1c331d3a8ad551af1f2a7113c4afc141",
+      "size": 80628,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/babc8cab1c331d3a8ad551af1f2a7113c4afc141"
+    },
+    {
+      "path": "public/assets/showcase/showcase-izadoesdev.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd9f202a339116ee3e3b41f78c8049b7b51fb0b5",
+      "size": 20786,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/bd9f202a339116ee3e3b41f78c8049b7b51fb0b5"
+    },
+    {
+      "path": "public/assets/showcase/showcase-oscar.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20d1d3f829f36b642d4beff09fadcf8a196dbc2e",
+      "size": 84384,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/20d1d3f829f36b642d4beff09fadcf8a196dbc2e"
+    },
+    {
+      "path": "public/assets/sponsors",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9740d84b1bb97c47afbd32cbfaf87c9533b7f8fb",
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/9740d84b1bb97c47afbd32cbfaf87c9533b7f8fb"
+    },
+    {
+      "path": "public/assets/sponsors/nextjsweekly-lightmode.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e7aa0cb2c81fff291d126e26d0b6922df951b43",
+      "size": 4784,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/9e7aa0cb2c81fff291d126e26d0b6922df951b43"
+    },
+    {
+      "path": "public/assets/sponsors/nextjsweekly.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b1696574df6d84015458e812f0a7113bbe25332",
+      "size": 4841,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/1b1696574df6d84015458e812f0a7113bbe25332"
+    },
+    {
+      "path": "public/assets/sponsors/shadcnblocks-lightmode.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c9223e665eb6ad4bd42b6271954fc236e9ba57c",
+      "size": 39035,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/3c9223e665eb6ad4bd42b6271954fc236e9ba57c"
+    },
+    {
+      "path": "public/assets/sponsors/shadcnblocks.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "292551c48e13a62de6e9f9666e42da3b31655379",
+      "size": 38609,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/292551c48e13a62de6e9f9666e42da3b31655379"
+    },
+    {
+      "path": "public/assets/sponsors/shadcnspace-lightmode.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b2966a9ce05dbc108beb5542653045e4eac4b20",
+      "size": 11571,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/3b2966a9ce05dbc108beb5542653045e4eac4b20"
+    },
+    {
+      "path": "public/assets/sponsors/shadcnspace.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8db7d5a06350abd8d07fa81a2f904b82ef428558",
+      "size": 11569,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/8db7d5a06350abd8d07fa81a2f904b82ef428558"
+    },
+    {
+      "path": "public/assets/sponsors/shadcnstudio-lightmode.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae4f5578626c2a27fb8a081a33ef40bfdb002c44",
+      "size": 37620,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/ae4f5578626c2a27fb8a081a33ef40bfdb002c44"
+    },
+    {
+      "path": "public/assets/sponsors/shadcnstudio.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b71d742250899b57d2a75149d0b79dcbb7973f4",
+      "size": 37620,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/9b71d742250899b57d2a75149d0b79dcbb7973f4"
+    },
+    {
+      "path": "public/assets/sponsors/shadcraft-lightmode.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20f3e2a5ee9e017d2521078e1b1ca5dd502b3f31",
+      "size": 52042,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/20f3e2a5ee9e017d2521078e1b1ca5dd502b3f31"
+    },
+    {
+      "path": "public/assets/sponsors/shadcraft.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "941783bb8963f222f7e096d32abdc20a7338c518",
+      "size": 22311,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/941783bb8963f222f7e096d32abdc20a7338c518"
+    },
+    {
+      "path": "public/assets/video",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "38c000d4e1dc88dacaea90457aeb480ff305e75f",
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/38c000d4e1dc88dacaea90457aeb480ff305e75f"
+    },
+    {
+      "path": "public/assets/video/animatedcontent.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88952d6bc7890bcc5a2be2eed1da37dbf23dabf0",
+      "size": 40221,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/88952d6bc7890bcc5a2be2eed1da37dbf23dabf0"
+    },
+    {
+      "path": "public/assets/video/animatedcontent.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b74a0a755eb79449c8b532fb1d22cb24d7ee293b",
+      "size": 40105,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/b74a0a755eb79449c8b532fb1d22cb24d7ee293b"
+    },
+    {
+      "path": "public/assets/video/animatedlist.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2286abe1adbaebad71869c88bffe0ee49b6504c",
+      "size": 47404,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/f2286abe1adbaebad71869c88bffe0ee49b6504c"
+    },
+    {
+      "path": "public/assets/video/animatedlist.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39d5a05757dca38dbdfca24507d46904600818fb",
+      "size": 46676,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/39d5a05757dca38dbdfca24507d46904600818fb"
+    },
+    {
+      "path": "public/assets/video/antigravity.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8188fc4906540caba8b64750e02c18de0ebd31cb",
+      "size": 56141,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/8188fc4906540caba8b64750e02c18de0ebd31cb"
+    },
+    {
+      "path": "public/assets/video/antigravity.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be1b3f8090da494e8152311aaa10c2ccb9b38b04",
+      "size": 56196,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/be1b3f8090da494e8152311aaa10c2ccb9b38b04"
+    },
+    {
+      "path": "public/assets/video/asciitext.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "519c31b17fb9e04b980c5e946d7ddb711bf91c31",
+      "size": 59081,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/519c31b17fb9e04b980c5e946d7ddb711bf91c31"
+    },
+    {
+      "path": "public/assets/video/asciitext.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e4e1ac979584a4d77c82c33021b75649d3b7333",
+      "size": 58639,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/7e4e1ac979584a4d77c82c33021b75649d3b7333"
+    },
+    {
+      "path": "public/assets/video/aurora.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13b92bba0f2953d5715d5172fe6f25914b040c33",
+      "size": 51664,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/13b92bba0f2953d5715d5172fe6f25914b040c33"
+    },
+    {
+      "path": "public/assets/video/aurora.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60fd3520346b438ca9a393c8cbcb23ba45da3eda",
+      "size": 51036,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/60fd3520346b438ca9a393c8cbcb23ba45da3eda"
+    },
+    {
+      "path": "public/assets/video/balatro.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d40497fdb5a3ab20a63df1509491e040cbeb38e",
+      "size": 59662,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/7d40497fdb5a3ab20a63df1509491e040cbeb38e"
+    },
+    {
+      "path": "public/assets/video/balatro.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1be002231e9c9c3fcf3ca4a8d624193d01a88cc5",
+      "size": 59447,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/1be002231e9c9c3fcf3ca4a8d624193d01a88cc5"
+    },
+    {
+      "path": "public/assets/video/ballpit.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39f9e1e231ac869e8f62acea66c352573a37ef2d",
+      "size": 91703,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/39f9e1e231ac869e8f62acea66c352573a37ef2d"
+    },
+    {
+      "path": "public/assets/video/ballpit.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6946f3ee5db99ea3e9cbaf9c924d0157b3dafff",
+      "size": 90586,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/c6946f3ee5db99ea3e9cbaf9c924d0157b3dafff"
+    },
+    {
+      "path": "public/assets/video/beams.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b42f0d23280bd0d2aa3c887784245c908937e91e",
+      "size": 59437,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/b42f0d23280bd0d2aa3c887784245c908937e91e"
+    },
+    {
+      "path": "public/assets/video/beams.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01742378b2f31b95ce04b63bf8ae38d3a41d95ba",
+      "size": 60477,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/01742378b2f31b95ce04b63bf8ae38d3a41d95ba"
+    },
+    {
+      "path": "public/assets/video/blobcursor.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "156d016e5c49a8c95b1035907f8c0a7271ac5c2e",
+      "size": 52704,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/156d016e5c49a8c95b1035907f8c0a7271ac5c2e"
+    },
+    {
+      "path": "public/assets/video/blobcursor.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21ff0f1c3a89100d233f49cbd0ef00d00aaa536d",
+      "size": 51433,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/21ff0f1c3a89100d233f49cbd0ef00d00aaa536d"
+    },
+    {
+      "path": "public/assets/video/blurtext.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c26a8db99dc2af8356c642d092eb9421c1a4d680",
+      "size": 28591,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/c26a8db99dc2af8356c642d092eb9421c1a4d680"
+    },
+    {
+      "path": "public/assets/video/blurtext.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "350dfd611a82e9284a9d0a1679be8cfecc642c74",
+      "size": 21107,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/350dfd611a82e9284a9d0a1679be8cfecc642c74"
+    },
+    {
+      "path": "public/assets/video/borderglow.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7daff174510bb4337985fd790da77fc6bcbee181",
+      "size": 75291,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/7daff174510bb4337985fd790da77fc6bcbee181"
+    },
+    {
+      "path": "public/assets/video/borderglow.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "017a38f369d453843ef4ff91a54635af412b1e60",
+      "size": 75168,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/017a38f369d453843ef4ff91a54635af412b1e60"
+    },
+    {
+      "path": "public/assets/video/bouncecards.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b61b1ab97ccf78097f78d8473d5c3926f68c4188",
+      "size": 67123,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/b61b1ab97ccf78097f78d8473d5c3926f68c4188"
+    },
+    {
+      "path": "public/assets/video/bouncecards.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff477a344ed0ddcc94013f28ad6c79c726306e1a",
+      "size": 66439,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/ff477a344ed0ddcc94013f28ad6c79c726306e1a"
+    },
+    {
+      "path": "public/assets/video/bubblemenu.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2db9cff55592c2ced7bade172b3a96a5022da885",
+      "size": 52633,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/2db9cff55592c2ced7bade172b3a96a5022da885"
+    },
+    {
+      "path": "public/assets/video/bubblemenu.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5421df927d64954cac14a9ffc61357eca392f544",
+      "size": 52105,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/5421df927d64954cac14a9ffc61357eca392f544"
+    },
+    {
+      "path": "public/assets/video/cardnav.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b47c4ae8719315e9d77130dd9c9432a9348de699",
+      "size": 42527,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/b47c4ae8719315e9d77130dd9c9432a9348de699"
+    },
+    {
+      "path": "public/assets/video/cardnav.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58f92ed8d7ad7ce55d728bd7f36ec3e47369a126",
+      "size": 42749,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/58f92ed8d7ad7ce55d728bd7f36ec3e47369a126"
+    },
+    {
+      "path": "public/assets/video/cardswap.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40e5161b0a0e162aa0aaf2c8496b5bbf058d60f1",
+      "size": 62306,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/40e5161b0a0e162aa0aaf2c8496b5bbf058d60f1"
+    },
+    {
+      "path": "public/assets/video/cardswap.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4679fa016eccbae2d43a91b58c92dfe18c8f454",
+      "size": 61161,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/a4679fa016eccbae2d43a91b58c92dfe18c8f454"
+    },
+    {
+      "path": "public/assets/video/carousel.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee15405cb4fe581bb2ae0145da12ed5f4088720e",
+      "size": 45588,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/ee15405cb4fe581bb2ae0145da12ed5f4088720e"
+    },
+    {
+      "path": "public/assets/video/carousel.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fbe83f0ea3cecfbeff914d67a067d55c47bafb1",
+      "size": 45521,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/3fbe83f0ea3cecfbeff914d67a067d55c47bafb1"
+    },
+    {
+      "path": "public/assets/video/chromagrid.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "352a61e85cd464a71c58504f9b828c0600bcc1d1",
+      "size": 73588,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/352a61e85cd464a71c58504f9b828c0600bcc1d1"
+    },
+    {
+      "path": "public/assets/video/chromagrid.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3a3a35c74e62469b8873309eae06905d432e3e5",
+      "size": 72420,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/e3a3a35c74e62469b8873309eae06905d432e3e5"
+    },
+    {
+      "path": "public/assets/video/circulargallery.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85254afd04b813013b91e05dfd433a7471268498",
+      "size": 72311,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/85254afd04b813013b91e05dfd433a7471268498"
+    },
+    {
+      "path": "public/assets/video/circulargallery.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c9f193789e41e12192c300f902e24a8f7a305f7",
+      "size": 70708,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/5c9f193789e41e12192c300f902e24a8f7a305f7"
+    },
+    {
+      "path": "public/assets/video/circulartext.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5409353f1b1a29998f1234e15154c27319466d12",
+      "size": 61029,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/5409353f1b1a29998f1234e15154c27319466d12"
+    },
+    {
+      "path": "public/assets/video/circulartext.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5de4c1801f343d0f26db7289ecefa5f39d34b24",
+      "size": 59750,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/d5de4c1801f343d0f26db7289ecefa5f39d34b24"
+    },
+    {
+      "path": "public/assets/video/clickspark.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e75f2f8638c58615ffe541a4eeff9a8c84dde82c",
+      "size": 25312,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/e75f2f8638c58615ffe541a4eeff9a8c84dde82c"
+    },
+    {
+      "path": "public/assets/video/clickspark.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5395331df36dad9291d6f9726eed213e8f5026c4",
+      "size": 24784,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/5395331df36dad9291d6f9726eed213e8f5026c4"
+    },
+    {
+      "path": "public/assets/video/colorbends.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f78333ba70ce09826eb0baca85208766cf7582c",
+      "size": 58467,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/0f78333ba70ce09826eb0baca85208766cf7582c"
+    },
+    {
+      "path": "public/assets/video/colorbends.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72a07ad49dbbb97f48059e44f5c807098437b9b8",
+      "size": 57772,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/72a07ad49dbbb97f48059e44f5c807098437b9b8"
+    },
+    {
+      "path": "public/assets/video/counter.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10f6718ae55376442e6bb3da9abaad66dbf282a1",
+      "size": 51266,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/10f6718ae55376442e6bb3da9abaad66dbf282a1"
+    },
+    {
+      "path": "public/assets/video/counter.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec8fc687d387af92eb74c274c15d3544dcf0e4fc",
+      "size": 51250,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/ec8fc687d387af92eb74c274c15d3544dcf0e4fc"
+    },
+    {
+      "path": "public/assets/video/countup.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b95d65dabb71543b1cf4973a5a95b510bb655dda",
+      "size": 43291,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/b95d65dabb71543b1cf4973a5a95b510bb655dda"
+    },
+    {
+      "path": "public/assets/video/countup.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b1310ef0e393f0121ca17c2ab4bcbeccd8c68a9",
+      "size": 42691,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/8b1310ef0e393f0121ca17c2ab4bcbeccd8c68a9"
+    },
+    {
+      "path": "public/assets/video/crosshair.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73b1405fd0345ab515260d26c1bc4a7426bdbd32",
+      "size": 47674,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/73b1405fd0345ab515260d26c1bc4a7426bdbd32"
+    },
+    {
+      "path": "public/assets/video/crosshair.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab6ec52be070e2507f0d3298f34204ed57208c01",
+      "size": 47846,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/ab6ec52be070e2507f0d3298f34204ed57208c01"
+    },
+    {
+      "path": "public/assets/video/cubes.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f006a43759f3ba591c4b681aeddcc672f1048ecf",
+      "size": 82536,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/f006a43759f3ba591c4b681aeddcc672f1048ecf"
+    },
+    {
+      "path": "public/assets/video/cubes.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c50bbd1bfff82504c76049c89c5cab092a2f498d",
+      "size": 80030,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/c50bbd1bfff82504c76049c89c5cab092a2f498d"
+    },
+    {
+      "path": "public/assets/video/curvedloop.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d45ee149f6215a089412d24f3051eaf558f3016",
+      "size": 61166,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/4d45ee149f6215a089412d24f3051eaf558f3016"
+    },
+    {
+      "path": "public/assets/video/curvedloop.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "269412025b9fa8f7e49c4ee4646203ef1ca22d47",
+      "size": 59945,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/269412025b9fa8f7e49c4ee4646203ef1ca22d47"
+    },
+    {
+      "path": "public/assets/video/darkveil.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3b630dcc031961b04a440a2483587bf75560643",
+      "size": 53304,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/c3b630dcc031961b04a440a2483587bf75560643"
+    },
+    {
+      "path": "public/assets/video/darkveil.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81ec87e0c7c9bd1bc5259127c490a4fbdcbf0346",
+      "size": 53609,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/81ec87e0c7c9bd1bc5259127c490a4fbdcbf0346"
+    },
+    {
+      "path": "public/assets/video/decaycard.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "488c114eff2187532c6fabe4bdbcdd7c9fd92abc",
+      "size": 56702,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/488c114eff2187532c6fabe4bdbcdd7c9fd92abc"
+    },
+    {
+      "path": "public/assets/video/decaycard.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "974f08499e73c2b2c05c2944ffff8f4ca0fa0d0c",
+      "size": 56602,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/974f08499e73c2b2c05c2944ffff8f4ca0fa0d0c"
+    },
+    {
+      "path": "public/assets/video/decryptedtext.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9efe0322b863fbd21eca285ae7148d4c571bbdd2",
+      "size": 46136,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/9efe0322b863fbd21eca285ae7148d4c571bbdd2"
+    },
+    {
+      "path": "public/assets/video/decryptedtext.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc2933f679eacea0ad35e16a486719b4dbe0ceab",
+      "size": 46712,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/bc2933f679eacea0ad35e16a486719b4dbe0ceab"
+    },
+    {
+      "path": "public/assets/video/dither.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb486ca645e47fdcf48b684425b28cb1c70b65c6",
+      "size": 93679,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/eb486ca645e47fdcf48b684425b28cb1c70b65c6"
+    },
+    {
+      "path": "public/assets/video/dither.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f2159278a63a4b49be1bb0ea3ae7f40b60638c4",
+      "size": 91542,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/2f2159278a63a4b49be1bb0ea3ae7f40b60638c4"
+    },
+    {
+      "path": "public/assets/video/dock.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20619143aa77b68843b28ccc5eb13184d1514b5a",
+      "size": 49463,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/20619143aa77b68843b28ccc5eb13184d1514b5a"
+    },
+    {
+      "path": "public/assets/video/dock.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc19eac82cd3593311737897d46b88f733ebe9ce",
+      "size": 49016,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/dc19eac82cd3593311737897d46b88f733ebe9ce"
+    },
+    {
+      "path": "public/assets/video/domegallery.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9d7ba0d45e65d05ddc7acad713e5a7df8a843a7",
+      "size": 85637,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/b9d7ba0d45e65d05ddc7acad713e5a7df8a843a7"
+    },
+    {
+      "path": "public/assets/video/domegallery.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df0f51be8d4173c2d6180a80bc4d4c233e4c8dca",
+      "size": 84090,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/df0f51be8d4173c2d6180a80bc4d4c233e4c8dca"
+    },
+    {
+      "path": "public/assets/video/dotgrid.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e220e5a27412bd6a510174b65738f8040b3dea8",
+      "size": 69540,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/1e220e5a27412bd6a510174b65738f8040b3dea8"
+    },
+    {
+      "path": "public/assets/video/dotgrid.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0757b3c71f00a8f20fccb1955b1a29cc1584d47d",
+      "size": 69178,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/0757b3c71f00a8f20fccb1955b1a29cc1584d47d"
+    },
+    {
+      "path": "public/assets/video/elasticslider.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "151452fb6b2e457f78deefab0b827546322fde2c",
+      "size": 20043,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/151452fb6b2e457f78deefab0b827546322fde2c"
+    },
+    {
+      "path": "public/assets/video/elasticslider.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50e985ab839328abf8c1408113dc473e9b94aad6",
+      "size": 19871,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/50e985ab839328abf8c1408113dc473e9b94aad6"
+    },
+    {
+      "path": "public/assets/video/electricborder.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "691c0d64e36170ef56139f29a04adc79db9ca766",
+      "size": 56196,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/691c0d64e36170ef56139f29a04adc79db9ca766"
+    },
+    {
+      "path": "public/assets/video/electricborder.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34abaf3f4d25e003003cbe7fe7c4da95e207ef5d",
+      "size": 55773,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/34abaf3f4d25e003003cbe7fe7c4da95e207ef5d"
+    },
+    {
+      "path": "public/assets/video/evileye.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a92c314da2723f432738065fab0647795d01999",
+      "size": 102952,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/1a92c314da2723f432738065fab0647795d01999"
+    },
+    {
+      "path": "public/assets/video/evileye.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a08ffafbd01665b912bcf92a8a38f2e0967acd32",
+      "size": 102310,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/a08ffafbd01665b912bcf92a8a38f2e0967acd32"
+    },
+    {
+      "path": "public/assets/video/fadecontent.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9afb85c5dc81db164d58ac5c2a17115b83c9bf8",
+      "size": 16285,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/c9afb85c5dc81db164d58ac5c2a17115b83c9bf8"
+    },
+    {
+      "path": "public/assets/video/fadecontent.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22001da3a81927ee00efd2b41e7899a9df879dd7",
+      "size": 15676,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/22001da3a81927ee00efd2b41e7899a9df879dd7"
+    },
+    {
+      "path": "public/assets/video/fallingtext.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8861bbe6ebc7fc3ce05b6b76087676056dacbcf",
+      "size": 77440,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/f8861bbe6ebc7fc3ce05b6b76087676056dacbcf"
+    },
+    {
+      "path": "public/assets/video/fallingtext.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad5125feb993bdd43c67bc310ce1510791818fbd",
+      "size": 77487,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/ad5125feb993bdd43c67bc310ce1510791818fbd"
+    },
+    {
+      "path": "public/assets/video/faultyterminal.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41e26cd802e70dcacae196ddd8afb2e9bdef7c42",
+      "size": 65394,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/41e26cd802e70dcacae196ddd8afb2e9bdef7c42"
+    },
+    {
+      "path": "public/assets/video/faultyterminal.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18532aa613adfd420a6a187c1e1d3e89ede12b00",
+      "size": 64261,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/18532aa613adfd420a6a187c1e1d3e89ede12b00"
+    },
+    {
+      "path": "public/assets/video/floatinglines.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ef3707608a1672fa61f9d1066767be564321e3f",
+      "size": 76238,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/2ef3707608a1672fa61f9d1066767be564321e3f"
+    },
+    {
+      "path": "public/assets/video/floatinglines.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b81a934de819628e834c6c480df29eccd15f120",
+      "size": 75593,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/0b81a934de819628e834c6c480df29eccd15f120"
+    },
+    {
+      "path": "public/assets/video/flowingmenu.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9854e7daae1873e85e75858c220d20f71f40bee5",
+      "size": 59419,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/9854e7daae1873e85e75858c220d20f71f40bee5"
+    },
+    {
+      "path": "public/assets/video/flowingmenu.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62705744e8fbe4f09d6d481cb923d5bd0cbdc73a",
+      "size": 57707,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/62705744e8fbe4f09d6d481cb923d5bd0cbdc73a"
+    },
+    {
+      "path": "public/assets/video/fluidglass.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fae5d4fb71f5422c6fd387b5609e703586630719",
+      "size": 52582,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/fae5d4fb71f5422c6fd387b5609e703586630719"
+    },
+    {
+      "path": "public/assets/video/fluidglass.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4dd7a27cea0630d7ef37ca7de0021e7877d01b6",
+      "size": 51940,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/a4dd7a27cea0630d7ef37ca7de0021e7877d01b6"
+    },
+    {
+      "path": "public/assets/video/flyingposters.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8337a4182abb2201ee91fe33c14ce98f391b852",
+      "size": 61800,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/b8337a4182abb2201ee91fe33c14ce98f391b852"
+    },
+    {
+      "path": "public/assets/video/flyingposters.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c62e5df89249b6431ada3565c5c8e24d80223343",
+      "size": 61198,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/c62e5df89249b6431ada3565c5c8e24d80223343"
+    },
+    {
+      "path": "public/assets/video/folder.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e56a884be2d044915b3aa064046101e6607262be",
+      "size": 46113,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/e56a884be2d044915b3aa064046101e6607262be"
+    },
+    {
+      "path": "public/assets/video/folder.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9de7f9cf2acc11a335f65a69dc809f99d5e6cb3f",
+      "size": 45907,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/9de7f9cf2acc11a335f65a69dc809f99d5e6cb3f"
+    },
+    {
+      "path": "public/assets/video/fuzzytext.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32c6a3b4a88411b66bb0023e673a29977e914b6e",
+      "size": 42652,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/32c6a3b4a88411b66bb0023e673a29977e914b6e"
+    },
+    {
+      "path": "public/assets/video/fuzzytext.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3f0506b2783d77e7cbb0ce70f53d8d4a27b446d",
+      "size": 41513,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/a3f0506b2783d77e7cbb0ce70f53d8d4a27b446d"
+    },
+    {
+      "path": "public/assets/video/galaxy.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68163e09e2e22c32f8e8128ae36ae310e25d335b",
+      "size": 46502,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/68163e09e2e22c32f8e8128ae36ae310e25d335b"
+    },
+    {
+      "path": "public/assets/video/galaxy.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c67827b1e55c4af345cad77b24bf53cc872b5db0",
+      "size": 47323,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/c67827b1e55c4af345cad77b24bf53cc872b5db0"
+    },
+    {
+      "path": "public/assets/video/ghostcursor.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ecb54ebcb6d616efaa1734f4de23c9c03946ada",
+      "size": 53592,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/4ecb54ebcb6d616efaa1734f4de23c9c03946ada"
+    },
+    {
+      "path": "public/assets/video/ghostcursor.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94e734603f3237505217e9d6162bf692a43e1a06",
+      "size": 52611,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/94e734603f3237505217e9d6162bf692a43e1a06"
+    },
+    {
+      "path": "public/assets/video/glarehover.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "382252eaccec25847d8de37fd71a4a607169675c",
+      "size": 25412,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/382252eaccec25847d8de37fd71a4a607169675c"
+    },
+    {
+      "path": "public/assets/video/glarehover.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "010fbabd10d1cb1b70695b5e001791041a7f6b03",
+      "size": 25039,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/010fbabd10d1cb1b70695b5e001791041a7f6b03"
+    },
+    {
+      "path": "public/assets/video/glassicons.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "041aa085156bb9671bcb26b86e9216cacac4b44e",
+      "size": 54533,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/041aa085156bb9671bcb26b86e9216cacac4b44e"
+    },
+    {
+      "path": "public/assets/video/glassicons.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb02442f1622892ba4c301460930b6e0003b7024",
+      "size": 54874,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/cb02442f1622892ba4c301460930b6e0003b7024"
+    },
+    {
+      "path": "public/assets/video/glasssurface.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "794d0b8fcd213d276a3b127f71a611c3bca2924e",
+      "size": 70588,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/794d0b8fcd213d276a3b127f71a611c3bca2924e"
+    },
+    {
+      "path": "public/assets/video/glasssurface.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de665680ff16ec36394e9acc90018a6faadc0f6d",
+      "size": 69156,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/de665680ff16ec36394e9acc90018a6faadc0f6d"
+    },
+    {
+      "path": "public/assets/video/glitchtext.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00b210c9fd3cbbc05e1ecd96b396ff6d23a8ea4b",
+      "size": 47517,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/00b210c9fd3cbbc05e1ecd96b396ff6d23a8ea4b"
+    },
+    {
+      "path": "public/assets/video/glitchtext.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17e59fc6fc21a49c66697fd003261852c080a564",
+      "size": 46705,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/17e59fc6fc21a49c66697fd003261852c080a564"
+    },
+    {
+      "path": "public/assets/video/gooeynav.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cb7296e429405a68634be301c932b1eb1201ee8",
+      "size": 54624,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/0cb7296e429405a68634be301c932b1eb1201ee8"
+    },
+    {
+      "path": "public/assets/video/gooeynav.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6809d0cc18c8f7c5fd3261dd1d6edaeb1dd91d6f",
+      "size": 54410,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/6809d0cc18c8f7c5fd3261dd1d6edaeb1dd91d6f"
+    },
+    {
+      "path": "public/assets/video/gradientblinds.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fa521080dad0cc79a89b856a8485d060e0e9d81",
+      "size": 63449,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/9fa521080dad0cc79a89b856a8485d060e0e9d81"
+    },
+    {
+      "path": "public/assets/video/gradientblinds.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9518dc2492231f8fc17e1fc6f0b0b0bb5a94b6d5",
+      "size": 62560,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/9518dc2492231f8fc17e1fc6f0b0b0bb5a94b6d5"
+    },
+    {
+      "path": "public/assets/video/gradienttext.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fe596f72747f104fd90334bbff39c93df9d76b2",
+      "size": 55276,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/8fe596f72747f104fd90334bbff39c93df9d76b2"
+    },
+    {
+      "path": "public/assets/video/gradienttext.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24a4b21656fc375178911ff310a8f35a2981e51b",
+      "size": 55151,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/24a4b21656fc375178911ff310a8f35a2981e51b"
+    },
+    {
+      "path": "public/assets/video/gradualblur.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e21ccf55efa4d271532ca6e4eaf51076f01130b",
+      "size": 55647,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/1e21ccf55efa4d271532ca6e4eaf51076f01130b"
+    },
+    {
+      "path": "public/assets/video/gradualblur.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3422cac9aceda53b098e61c7838565a801b81559",
+      "size": 56062,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/3422cac9aceda53b098e61c7838565a801b81559"
+    },
+    {
+      "path": "public/assets/video/grainient.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9467759f6d1aa5d615cd99341706b0e71657b76a",
+      "size": 342538,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/9467759f6d1aa5d615cd99341706b0e71657b76a"
+    },
+    {
+      "path": "public/assets/video/grainient.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a6f10dc443f591896b47a7032911afea21bccb2",
+      "size": 334030,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/6a6f10dc443f591896b47a7032911afea21bccb2"
+    },
+    {
+      "path": "public/assets/video/griddistortion.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7891bc351fb2bfc8ccd730cf8db05b66ef775ab0",
+      "size": 49373,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/7891bc351fb2bfc8ccd730cf8db05b66ef775ab0"
+    },
+    {
+      "path": "public/assets/video/griddistortion.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9ba9f62443b8a73cc3c73bac523296640457205",
+      "size": 48240,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/a9ba9f62443b8a73cc3c73bac523296640457205"
+    },
+    {
+      "path": "public/assets/video/gridmotion.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0236a582fc141b6ab974f33a87f5016f3e74a0e",
+      "size": 66812,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/b0236a582fc141b6ab974f33a87f5016f3e74a0e"
+    },
+    {
+      "path": "public/assets/video/gridmotion.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66b99bd247eb98d068ed24c2aa625cb4f6b138ba",
+      "size": 69959,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/66b99bd247eb98d068ed24c2aa625cb4f6b138ba"
+    },
+    {
+      "path": "public/assets/video/gridscan.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "deb62fff94fbfda5942051c54969d2bdd659f600",
+      "size": 69779,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/deb62fff94fbfda5942051c54969d2bdd659f600"
+    },
+    {
+      "path": "public/assets/video/gridscan.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f099d2a40b9ee501c4cbdc42b7550192b1e9b4f3",
+      "size": 69706,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/f099d2a40b9ee501c4cbdc42b7550192b1e9b4f3"
+    },
+    {
+      "path": "public/assets/video/hyperspeed.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c4822d3dff7430c2d49e34d5e48dde54a5ace37",
+      "size": 73990,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/4c4822d3dff7430c2d49e34d5e48dde54a5ace37"
+    },
+    {
+      "path": "public/assets/video/hyperspeed.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9fdeed0658d95a05e3ccf8197fe15ea9bc1a56f",
+      "size": 71120,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/d9fdeed0658d95a05e3ccf8197fe15ea9bc1a56f"
+    },
+    {
+      "path": "public/assets/video/imagetrail.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27d470b2f67e50219320a8d586a7f8c095cd48e0",
+      "size": 43879,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/27d470b2f67e50219320a8d586a7f8c095cd48e0"
+    },
+    {
+      "path": "public/assets/video/imagetrail.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bacb2b2bf853535ca3f71f39867a8c99d28e100b",
+      "size": 42785,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/bacb2b2bf853535ca3f71f39867a8c99d28e100b"
+    },
+    {
+      "path": "public/assets/video/infinitemenu.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdc3503c7b4fd7716dc443d04efa2b0f7e4ad398",
+      "size": 89323,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/bdc3503c7b4fd7716dc443d04efa2b0f7e4ad398"
+    },
+    {
+      "path": "public/assets/video/infinitemenu.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cae63a9b6c60f3f454f6eb86b30c3ffd6d9e5db3",
+      "size": 88018,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/cae63a9b6c60f3f454f6eb86b30c3ffd6d9e5db3"
+    },
+    {
+      "path": "public/assets/video/infinitescroll.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b77b49cde2b701f73dba8c0bee27079f8d8532f3",
+      "size": 55660,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/b77b49cde2b701f73dba8c0bee27079f8d8532f3"
+    },
+    {
+      "path": "public/assets/video/infinitescroll.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5f20a83019da69e7e7352fb59cac2fd9891c04c",
+      "size": 55007,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/e5f20a83019da69e7e7352fb59cac2fd9891c04c"
+    },
+    {
+      "path": "public/assets/video/iridescence.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f9771d413f364e840b8f91e471519e52907c3a9",
+      "size": 55347,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/6f9771d413f364e840b8f91e471519e52907c3a9"
+    },
+    {
+      "path": "public/assets/video/iridescence.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38f0a3e73a2578bcc388e3ec8ec3dfd0186bab53",
+      "size": 54344,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/38f0a3e73a2578bcc388e3ec8ec3dfd0186bab53"
+    },
+    {
+      "path": "public/assets/video/lanyard.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f83914a1ab216965905d8e49eb626ee72ae456e",
+      "size": 49532,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/2f83914a1ab216965905d8e49eb626ee72ae456e"
+    },
+    {
+      "path": "public/assets/video/lanyard.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d70089e4f0d496af88943bc2d35331ebf4dcfc9",
+      "size": 49764,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/0d70089e4f0d496af88943bc2d35331ebf4dcfc9"
+    },
+    {
+      "path": "public/assets/video/laserflow.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c0b9593363c02df1483dec050acec7910a05222",
+      "size": 63676,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/9c0b9593363c02df1483dec050acec7910a05222"
+    },
+    {
+      "path": "public/assets/video/laserflow.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e6f6be8b393b2102a4fea74c6a2adf5a4ac4845",
+      "size": 62850,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/5e6f6be8b393b2102a4fea74c6a2adf5a4ac4845"
+    },
+    {
+      "path": "public/assets/video/letterglitch.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcf9f8b97d727bf9e84539292f72c22635872c24",
+      "size": 77397,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/dcf9f8b97d727bf9e84539292f72c22635872c24"
+    },
+    {
+      "path": "public/assets/video/letterglitch.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1996fbb3ed2d288fca68e8b159dac0c33d99d38a",
+      "size": 74282,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/1996fbb3ed2d288fca68e8b159dac0c33d99d38a"
+    },
+    {
+      "path": "public/assets/video/lightning.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be4bc958a718b2903e43636383c8958376ce2352",
+      "size": 48387,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/be4bc958a718b2903e43636383c8958376ce2352"
+    },
+    {
+      "path": "public/assets/video/lightning.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ced0d08420ae5848d1b20fc52f37b1c1c67849ad",
+      "size": 46464,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/ced0d08420ae5848d1b20fc52f37b1c1c67849ad"
+    },
+    {
+      "path": "public/assets/video/lightpillar.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a07745863c0b03594906cac098ccda20585e01ea",
+      "size": 74979,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/a07745863c0b03594906cac098ccda20585e01ea"
+    },
+    {
+      "path": "public/assets/video/lightpillar.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c05476364992728862bd96361da487152f63e99",
+      "size": 75796,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/6c05476364992728862bd96361da487152f63e99"
+    },
+    {
+      "path": "public/assets/video/lightrays.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6da39db4fd8b7775f8a425122d7b9ca3aff65fc0",
+      "size": 52157,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/6da39db4fd8b7775f8a425122d7b9ca3aff65fc0"
+    },
+    {
+      "path": "public/assets/video/lightrays.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b556a7bf45530ea655dc691176de94081d347beb",
+      "size": 51874,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/b556a7bf45530ea655dc691176de94081d347beb"
+    },
+    {
+      "path": "public/assets/video/linewaves.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66def3d5877d810de4de99f900b677dbaabb6e06",
+      "size": 98502,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/66def3d5877d810de4de99f900b677dbaabb6e06"
+    },
+    {
+      "path": "public/assets/video/linewaves.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abd1185b7e7060d22db9b76e264c6f7648dfeefd",
+      "size": 97860,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/abd1185b7e7060d22db9b76e264c6f7648dfeefd"
+    },
+    {
+      "path": "public/assets/video/liquidchrome.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5de677cdac4ced3aaa9b94266c82bcecfb697b75",
+      "size": 57902,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/5de677cdac4ced3aaa9b94266c82bcecfb697b75"
+    },
+    {
+      "path": "public/assets/video/liquidchrome.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f810aa19bd1c719b463085dc8825f924e89daca7",
+      "size": 57108,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/f810aa19bd1c719b463085dc8825f924e89daca7"
+    },
+    {
+      "path": "public/assets/video/liquidether.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25b5da879af525b12619b3cb3662588252483164",
+      "size": 46296,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/25b5da879af525b12619b3cb3662588252483164"
+    },
+    {
+      "path": "public/assets/video/liquidether.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d654676ee79be2f319ca6035f70c191587a45d08",
+      "size": 44547,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/d654676ee79be2f319ca6035f70c191587a45d08"
+    },
+    {
+      "path": "public/assets/video/logoloop.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b460d5e124e3b17415ff8e9b62403fe7ec5d80df",
+      "size": 53987,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/b460d5e124e3b17415ff8e9b62403fe7ec5d80df"
+    },
+    {
+      "path": "public/assets/video/logoloop.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc07da39b4166520a1d014f8dd57e93a73510f5c",
+      "size": 53373,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/cc07da39b4166520a1d014f8dd57e93a73510f5c"
+    },
+    {
+      "path": "public/assets/video/magicbento.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "609dcb4ec9ab904ec5c056d1ed55612f51eabdaa",
+      "size": 59181,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/609dcb4ec9ab904ec5c056d1ed55612f51eabdaa"
+    },
+    {
+      "path": "public/assets/video/magicbento.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77139cf122d0166faa2738887d109629e2ba1c92",
+      "size": 60754,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/77139cf122d0166faa2738887d109629e2ba1c92"
+    },
+    {
+      "path": "public/assets/video/magicrings.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e6128fecaf0493bc61192c8496b6176e4181858",
+      "size": 68419,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/7e6128fecaf0493bc61192c8496b6176e4181858"
+    },
+    {
+      "path": "public/assets/video/magicrings.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b564ea4a77ad4b96ad87c63d3aecb71778af3f50",
+      "size": 67777,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/b564ea4a77ad4b96ad87c63d3aecb71778af3f50"
+    },
+    {
+      "path": "public/assets/video/magnet.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57cb707bf33b4adaae60ae6582acf178ab2e99f2",
+      "size": 50080,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/57cb707bf33b4adaae60ae6582acf178ab2e99f2"
+    },
+    {
+      "path": "public/assets/video/magnet.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "535eefaf6ad221c5cf129e12b435ebf2ec8f671b",
+      "size": 49410,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/535eefaf6ad221c5cf129e12b435ebf2ec8f671b"
+    },
+    {
+      "path": "public/assets/video/magnetlines.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "102e7e13163e226b94bfe3c65db6bedbbdfd8cf9",
+      "size": 66080,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/102e7e13163e226b94bfe3c65db6bedbbdfd8cf9"
+    },
+    {
+      "path": "public/assets/video/magnetlines.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38dad7a669f680feac1eb6d933840310fee9146c",
+      "size": 65609,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/38dad7a669f680feac1eb6d933840310fee9146c"
+    },
+    {
+      "path": "public/assets/video/masonry.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6e0d4c7981571b01f579c5e2ad6eb8712c0bd66",
+      "size": 61316,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/d6e0d4c7981571b01f579c5e2ad6eb8712c0bd66"
+    },
+    {
+      "path": "public/assets/video/masonry.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "077028dffd7d57543590bffb86668192ec4c475c",
+      "size": 61697,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/077028dffd7d57543590bffb86668192ec4c475c"
+    },
+    {
+      "path": "public/assets/video/metaballs.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3ec25b2117342f70846a1855b22103ad458508a",
+      "size": 55089,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/c3ec25b2117342f70846a1855b22103ad458508a"
+    },
+    {
+      "path": "public/assets/video/metaballs.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f6c33d16ccd3a8db513c30fb22cfacdd2a9c4de",
+      "size": 53905,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/0f6c33d16ccd3a8db513c30fb22cfacdd2a9c4de"
+    },
+    {
+      "path": "public/assets/video/metallicpaint.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9db941fb05a394f8c0916520f8c571a00fb55b66",
+      "size": 59805,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/9db941fb05a394f8c0916520f8c571a00fb55b66"
+    },
+    {
+      "path": "public/assets/video/metallicpaint.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "990644c5e37ef2df002732b6d3490045907b6a41",
+      "size": 59170,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/990644c5e37ef2df002732b6d3490045907b6a41"
+    },
+    {
+      "path": "public/assets/video/modelviewer.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "424deca3c0874b7506e7ef42f3ea688287b1816e",
+      "size": 66407,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/424deca3c0874b7506e7ef42f3ea688287b1816e"
+    },
+    {
+      "path": "public/assets/video/modelviewer.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "994cc27a0e250bb3a281ec6d44f3c4be21c7aa3a",
+      "size": 65303,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/994cc27a0e250bb3a281ec6d44f3c4be21c7aa3a"
+    },
+    {
+      "path": "public/assets/video/noise.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb32a9e15e60b6753751b0f8870a14faad0729f5",
+      "size": 55567,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/fb32a9e15e60b6753751b0f8870a14faad0729f5"
+    },
+    {
+      "path": "public/assets/video/noise.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a9ffb1623e7c6163b6ea843645605a32ffdd289",
+      "size": 58394,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/2a9ffb1623e7c6163b6ea843645605a32ffdd289"
+    },
+    {
+      "path": "public/assets/video/orb.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4aa7d6a9815a751bd232516443cd21cfa389b6cc",
+      "size": 52594,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/4aa7d6a9815a751bd232516443cd21cfa389b6cc"
+    },
+    {
+      "path": "public/assets/video/orb.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75cfd8087a184846a3ee8bdbf7f9f2c79450655d",
+      "size": 52155,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/75cfd8087a184846a3ee8bdbf7f9f2c79450655d"
+    },
+    {
+      "path": "public/assets/video/orbitimages.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dadd4b0a78bbb2a29aedad7c3e18329bff1cf94",
+      "size": 109540,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/9dadd4b0a78bbb2a29aedad7c3e18329bff1cf94"
+    },
+    {
+      "path": "public/assets/video/orbitimages.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74faf0019fa4ace938be9794400779d1c798213b",
+      "size": 108737,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/74faf0019fa4ace938be9794400779d1c798213b"
+    },
+    {
+      "path": "public/assets/video/particles.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5861272aedfd0cc12cf250ecaadd3f15ad25695f",
+      "size": 44527,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/5861272aedfd0cc12cf250ecaadd3f15ad25695f"
+    },
+    {
+      "path": "public/assets/video/particles.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f87b8cd1c6858c0a8e550c7c05d2a5f2bcc11732",
+      "size": 43932,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/f87b8cd1c6858c0a8e550c7c05d2a5f2bcc11732"
+    },
+    {
+      "path": "public/assets/video/pillnav.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eec4076660ab37f3f724777be46e34897185ee2a",
+      "size": 61118,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/eec4076660ab37f3f724777be46e34897185ee2a"
+    },
+    {
+      "path": "public/assets/video/pillnav.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f6990aa7ebdfd5b9b52e882c94514d6ac23daab",
+      "size": 61509,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/0f6990aa7ebdfd5b9b52e882c94514d6ac23daab"
+    },
+    {
+      "path": "public/assets/video/pixelblast.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77cbfc709491998c22ab9f1db1b36c5b95db1339",
+      "size": 86250,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/77cbfc709491998c22ab9f1db1b36c5b95db1339"
+    },
+    {
+      "path": "public/assets/video/pixelblast.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "671a27c9f7ef09c808d1686e645d1275017a7791",
+      "size": 94960,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/671a27c9f7ef09c808d1686e645d1275017a7791"
+    },
+    {
+      "path": "public/assets/video/pixelcard.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d48e3085ff28cac2b602128da208d1a722841af",
+      "size": 82171,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/5d48e3085ff28cac2b602128da208d1a722841af"
+    },
+    {
+      "path": "public/assets/video/pixelcard.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fac133a3498a49f37f06763afd8d40f4b60d4be",
+      "size": 75947,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/2fac133a3498a49f37f06763afd8d40f4b60d4be"
+    },
+    {
+      "path": "public/assets/video/pixelsnow.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27c8376e7e147e19102c63955480bdeb37174db9",
+      "size": 68978,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/27c8376e7e147e19102c63955480bdeb37174db9"
+    },
+    {
+      "path": "public/assets/video/pixelsnow.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "665f2ea9cccb2b67d477746c2601d3430de4d901",
+      "size": 68332,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/665f2ea9cccb2b67d477746c2601d3430de4d901"
+    },
+    {
+      "path": "public/assets/video/pixeltrail.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "581f38ea14fd3e9b77745be50b38db987d840523",
+      "size": 45329,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/581f38ea14fd3e9b77745be50b38db987d840523"
+    },
+    {
+      "path": "public/assets/video/pixeltrail.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d860e9568181be75cd9134317b68fae354f65f2b",
+      "size": 44576,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/d860e9568181be75cd9134317b68fae354f65f2b"
+    },
+    {
+      "path": "public/assets/video/pixeltransition.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02ee7c2b6dd05b12ce3bc6a013b7ed14dd686c8f",
+      "size": 58586,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/02ee7c2b6dd05b12ce3bc6a013b7ed14dd686c8f"
+    },
+    {
+      "path": "public/assets/video/pixeltransition.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb933562f6c9cd6694406339df99e9cdf3fdf955",
+      "size": 59049,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/cb933562f6c9cd6694406339df99e9cdf3fdf955"
+    },
+    {
+      "path": "public/assets/video/plasma.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "221f5dc99924c7675a8bc546fddb9c4797141e81",
+      "size": 54761,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/221f5dc99924c7675a8bc546fddb9c4797141e81"
+    },
+    {
+      "path": "public/assets/video/plasma.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19310d1b88a9097110152b1a4e0f6f9005790f1b",
+      "size": 54068,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/19310d1b88a9097110152b1a4e0f6f9005790f1b"
+    },
+    {
+      "path": "public/assets/video/prism.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d83a1aa222e6dafcb65b033dbc6df96766d0647d",
+      "size": 65048,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/d83a1aa222e6dafcb65b033dbc6df96766d0647d"
+    },
+    {
+      "path": "public/assets/video/prism.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f0ee0d796b66f490eb594f23157dd66f4a3b063",
+      "size": 119194,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/6f0ee0d796b66f490eb594f23157dd66f4a3b063"
+    },
+    {
+      "path": "public/assets/video/prismaticburst.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e77f17d246de4e7c28a1362631b05c422627cc9",
+      "size": 56686,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/2e77f17d246de4e7c28a1362631b05c422627cc9"
+    },
+    {
+      "path": "public/assets/video/prismaticburst.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "135062924a6ec5462ed8dda24ce2ceeb58349f6f",
+      "size": 55717,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/135062924a6ec5462ed8dda24ce2ceeb58349f6f"
+    },
+    {
+      "path": "public/assets/video/profilecard.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aec4fa75f97415e24e0e852f09d4f94d2cbd6e10",
+      "size": 51543,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/aec4fa75f97415e24e0e852f09d4f94d2cbd6e10"
+    },
+    {
+      "path": "public/assets/video/profilecard.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ddda4502734ae3e3d3d6cbc954d07d300b5ba49",
+      "size": 50812,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/0ddda4502734ae3e3d3d6cbc954d07d300b5ba49"
+    },
+    {
+      "path": "public/assets/video/radar.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b227a3dd758755ca67d91733c7edb62474c6f4bc",
+      "size": 90075,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/b227a3dd758755ca67d91733c7edb62474c6f4bc"
+    },
+    {
+      "path": "public/assets/video/radar.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ef6b96cece5219d235c815e7cbe66f23284c811",
+      "size": 89431,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/8ef6b96cece5219d235c815e7cbe66f23284c811"
+    },
+    {
+      "path": "public/assets/video/reflectivecard.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f513148c93df96ea194291fa90f531717c916e5",
+      "size": 91519,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/7f513148c93df96ea194291fa90f531717c916e5"
+    },
+    {
+      "path": "public/assets/video/reflectivecard.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bc54f6e8308fd9723c5f90bd420563fede341b5",
+      "size": 91251,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/1bc54f6e8308fd9723c5f90bd420563fede341b5"
+    },
+    {
+      "path": "public/assets/video/ribbons.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f46a786bf8175e0eb03bb690b95fddc27957e59",
+      "size": 46087,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/9f46a786bf8175e0eb03bb690b95fddc27957e59"
+    },
+    {
+      "path": "public/assets/video/ribbons.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf1be0614e7024ecb761cbb4800c2116970984ef",
+      "size": 46046,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/bf1be0614e7024ecb761cbb4800c2116970984ef"
+    },
+    {
+      "path": "public/assets/video/ripplegrid.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca36520c66b38166d298a28795b4dca9c200c61b",
+      "size": 58076,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/ca36520c66b38166d298a28795b4dca9c200c61b"
+    },
+    {
+      "path": "public/assets/video/ripplegrid.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6c10f76d4c8806f67398b6aab307b7df840b844",
+      "size": 57030,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/a6c10f76d4c8806f67398b6aab307b7df840b844"
+    },
+    {
+      "path": "public/assets/video/rotatingtext.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49d3ba10e4f9b3001160ed49d7bd97d09c6b06ee",
+      "size": 118057,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/49d3ba10e4f9b3001160ed49d7bd97d09c6b06ee"
+    },
+    {
+      "path": "public/assets/video/rotatingtext.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e46be251141b3b15c4311e73a20f5a0bfbfac774",
+      "size": 118873,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/e46be251141b3b15c4311e73a20f5a0bfbfac774"
+    },
+    {
+      "path": "public/assets/video/scrambledtext.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddb412bd2314baf3a1a87dcbdb9482ad7a58af6b",
+      "size": 52476,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/ddb412bd2314baf3a1a87dcbdb9482ad7a58af6b"
+    },
+    {
+      "path": "public/assets/video/scrambledtext.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e74bf47f105f7163e4ae285879102e85ebed12f",
+      "size": 53026,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/8e74bf47f105f7163e4ae285879102e85ebed12f"
+    },
+    {
+      "path": "public/assets/video/scrollfloat.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21ce59435cfffaae70be54b69d4504f75e6f4f11",
+      "size": 43129,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/21ce59435cfffaae70be54b69d4504f75e6f4f11"
+    },
+    {
+      "path": "public/assets/video/scrollfloat.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b407f0352e6106910de8612ac83fa6cf2331f758",
+      "size": 43095,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/b407f0352e6106910de8612ac83fa6cf2331f758"
+    },
+    {
+      "path": "public/assets/video/scrollreveal.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f74831052f2e9c677b474192778b5178a8adaab9",
+      "size": 52816,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/f74831052f2e9c677b474192778b5178a8adaab9"
+    },
+    {
+      "path": "public/assets/video/scrollreveal.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "042c57b7e1651593fb3e5c1694db8743fc73bae3",
+      "size": 52333,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/042c57b7e1651593fb3e5c1694db8743fc73bae3"
+    },
+    {
+      "path": "public/assets/video/scrollstack.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "732738c6af4526efaadbf251ba88b24fd16cfcd2",
+      "size": 56426,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/732738c6af4526efaadbf251ba88b24fd16cfcd2"
+    },
+    {
+      "path": "public/assets/video/scrollstack.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "763d3bf0b175190349940ed0d99fea3e9dccb778",
+      "size": 57141,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/763d3bf0b175190349940ed0d99fea3e9dccb778"
+    },
+    {
+      "path": "public/assets/video/scrollvelocity.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "009f35b427a28279f5e9075a8115fb43f845ed03",
+      "size": 69804,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/009f35b427a28279f5e9075a8115fb43f845ed03"
+    },
+    {
+      "path": "public/assets/video/scrollvelocity.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0ca8f3e79a36e58208e51486616fe228efecec7",
+      "size": 69680,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/a0ca8f3e79a36e58208e51486616fe228efecec7"
+    },
+    {
+      "path": "public/assets/video/shapeblur.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fccf81d5819e0a371877557273ccf34b6fc493b",
+      "size": 48005,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/8fccf81d5819e0a371877557273ccf34b6fc493b"
+    },
+    {
+      "path": "public/assets/video/shapeblur.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "223d572b79dbd2967385c4639070441db5aa3028",
+      "size": 47775,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/223d572b79dbd2967385c4639070441db5aa3028"
+    },
+    {
+      "path": "public/assets/video/shinytext.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be943986933e4b25784dc136cc5d48925d6d03bf",
+      "size": 43541,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/be943986933e4b25784dc136cc5d48925d6d03bf"
+    },
+    {
+      "path": "public/assets/video/shinytext.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abdb85e887705c6f27bb353f067f8682ce7a842a",
+      "size": 42593,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/abdb85e887705c6f27bb353f067f8682ce7a842a"
+    },
+    {
+      "path": "public/assets/video/shuffle.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc7aa5b0ef695fa46d57910b88a38b728fe5ac05",
+      "size": 40590,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/bc7aa5b0ef695fa46d57910b88a38b728fe5ac05"
+    },
+    {
+      "path": "public/assets/video/shuffle.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c683659ef53a0afde273b60beb4db2a70c0f7ec2",
+      "size": 40876,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/c683659ef53a0afde273b60beb4db2a70c0f7ec2"
+    },
+    {
+      "path": "public/assets/video/silk.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32add2e30b6ce15689e45bb57d176482b4e32a97",
+      "size": 62262,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/32add2e30b6ce15689e45bb57d176482b4e32a97"
+    },
+    {
+      "path": "public/assets/video/silk.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb6925b8d6ee814333ceb28e5d1a685d59ccf074",
+      "size": 61477,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/fb6925b8d6ee814333ceb28e5d1a685d59ccf074"
+    },
+    {
+      "path": "public/assets/video/softaurora.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72f79bbc1640a9062052b6c044bd6719adf0d0be",
+      "size": 68812,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/72f79bbc1640a9062052b6c044bd6719adf0d0be"
+    },
+    {
+      "path": "public/assets/video/splashcursor.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f36cb3c154a75103230b3e3af8b494ca5acc074",
+      "size": 58687,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/8f36cb3c154a75103230b3e3af8b494ca5acc074"
+    },
+    {
+      "path": "public/assets/video/splashcursor.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64a2884b922d403375496d8f52976a08140b919b",
+      "size": 57266,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/64a2884b922d403375496d8f52976a08140b919b"
+    },
+    {
+      "path": "public/assets/video/splittext.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0723ace3ce97b71aeeddff94072b9e391459c939",
+      "size": 38981,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/0723ace3ce97b71aeeddff94072b9e391459c939"
+    },
+    {
+      "path": "public/assets/video/splittext.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df1397fd544e331951feb97b4ab332e1d607e037",
+      "size": 57360,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/df1397fd544e331951feb97b4ab332e1d607e037"
+    },
+    {
+      "path": "public/assets/video/spotlightcard.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5191ea544693e08bf118a19fb3ba18de054f9ad7",
+      "size": 62152,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/5191ea544693e08bf118a19fb3ba18de054f9ad7"
+    },
+    {
+      "path": "public/assets/video/spotlightcard.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cbf8971248bbea3c9d88fce309171ebc9df33d2",
+      "size": 63279,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/0cbf8971248bbea3c9d88fce309171ebc9df33d2"
+    },
+    {
+      "path": "public/assets/video/squares.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67d88117629681f9b05d3df310000f2ab12852b1",
+      "size": 65633,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/67d88117629681f9b05d3df310000f2ab12852b1"
+    },
+    {
+      "path": "public/assets/video/squares.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b9abe69b2d842341d5e9016105475bad4b63a5b",
+      "size": 63219,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/1b9abe69b2d842341d5e9016105475bad4b63a5b"
+    },
+    {
+      "path": "public/assets/video/stack.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b76f8b2a2ff3feee0c6fa94ab556f2bb8839acc7",
+      "size": 70949,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/b76f8b2a2ff3feee0c6fa94ab556f2bb8839acc7"
+    },
+    {
+      "path": "public/assets/video/stack.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee4746f31cf3d1255dd71ddd5696642818eb0e90",
+      "size": 69286,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/ee4746f31cf3d1255dd71ddd5696642818eb0e90"
+    },
+    {
+      "path": "public/assets/video/staggeredmenu.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "375dbacc41aa35db28c82fa51517ef3f96ba9715",
+      "size": 65683,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/375dbacc41aa35db28c82fa51517ef3f96ba9715"
+    },
+    {
+      "path": "public/assets/video/staggeredmenu.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d37572efa62d44f400a62ac0b46e1c26961810d5",
+      "size": 63670,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/d37572efa62d44f400a62ac0b46e1c26961810d5"
+    },
+    {
+      "path": "public/assets/video/starborder.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe2010fba30bbff1eddb1792aba602d281966586",
+      "size": 23651,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/fe2010fba30bbff1eddb1792aba602d281966586"
+    },
+    {
+      "path": "public/assets/video/starborder.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4f9d292683e6c3c95f0ca7a3053f82a6d844182",
+      "size": 23099,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/c4f9d292683e6c3c95f0ca7a3053f82a6d844182"
+    },
+    {
+      "path": "public/assets/video/stepper.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25a19495203dfae499ac5ca059acfd46d8f47de5",
+      "size": 84389,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/25a19495203dfae499ac5ca059acfd46d8f47de5"
+    },
+    {
+      "path": "public/assets/video/stepper.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4182e177d0546385994c04a141403dc70be7686",
+      "size": 79241,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/c4182e177d0546385994c04a141403dc70be7686"
+    },
+    {
+      "path": "public/assets/video/stickerpeel.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e37a080bfa7752668c5ebba7d472abdd1d63b49",
+      "size": 57847,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/8e37a080bfa7752668c5ebba7d472abdd1d63b49"
+    },
+    {
+      "path": "public/assets/video/stickerpeel.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6abe997d0e6c4a5717677d7bb3b7372a296018b9",
+      "size": 56858,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/6abe997d0e6c4a5717677d7bb3b7372a296018b9"
+    },
+    {
+      "path": "public/assets/video/targetcursor.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd4c5abffebdaf9c4ad803973da763120dcb2137",
+      "size": 57536,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/bd4c5abffebdaf9c4ad803973da763120dcb2137"
+    },
+    {
+      "path": "public/assets/video/targetcursor.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7dda621e2d0fc0ffe732893951675e9ec919afb3",
+      "size": 58352,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/7dda621e2d0fc0ffe732893951675e9ec919afb3"
+    },
+    {
+      "path": "public/assets/video/textcursor.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bacffe86c73cda5f4dc01a5154f67d0483a30084",
+      "size": 50934,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/bacffe86c73cda5f4dc01a5154f67d0483a30084"
+    },
+    {
+      "path": "public/assets/video/textcursor.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23a9cc718ce6696e21b317a38d84708f59f2ac1c",
+      "size": 49835,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/23a9cc718ce6696e21b317a38d84708f59f2ac1c"
+    },
+    {
+      "path": "public/assets/video/textpressure.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d703bbb1cc15314a822ec2997c45cec71cec11c",
+      "size": 38411,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/8d703bbb1cc15314a822ec2997c45cec71cec11c"
+    },
+    {
+      "path": "public/assets/video/textpressure.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5210e9908cb43ffb92ae07ce8845e589fe148302",
+      "size": 37723,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/5210e9908cb43ffb92ae07ce8845e589fe148302"
+    },
+    {
+      "path": "public/assets/video/textrotate.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5de915952384071b43db5f09d4f2346ffe224033",
+      "size": 116535,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/5de915952384071b43db5f09d4f2346ffe224033"
+    },
+    {
+      "path": "public/assets/video/textrotate.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff774fc4536a393dba8700ad0a4aee85168ed56f",
+      "size": 118873,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/ff774fc4536a393dba8700ad0a4aee85168ed56f"
+    },
+    {
+      "path": "public/assets/video/texttype.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ace619dd46add0947ffd99a1cbfc63e39b66dc0",
+      "size": 39183,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/3ace619dd46add0947ffd99a1cbfc63e39b66dc0"
+    },
+    {
+      "path": "public/assets/video/texttype.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55e16f9fa88df2841f9572b4e96f2d16dfe2cb95",
+      "size": 39640,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/55e16f9fa88df2841f9572b4e96f2d16dfe2cb95"
+    },
+    {
+      "path": "public/assets/video/threads.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52ff501f5804ceeaef14a68cf58a99357284622b",
+      "size": 59124,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/52ff501f5804ceeaef14a68cf58a99357284622b"
+    },
+    {
+      "path": "public/assets/video/threads.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37a850722632107d4a8af9249b29a68963427c92",
+      "size": 58444,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/37a850722632107d4a8af9249b29a68963427c92"
+    },
+    {
+      "path": "public/assets/video/tiltedcard.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3facb454b65e0b1ae1fd17997dd3c4f79e91a605",
+      "size": 57085,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/3facb454b65e0b1ae1fd17997dd3c4f79e91a605"
+    },
+    {
+      "path": "public/assets/video/tiltedcard.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecb34886af9e310408e46f058e1384e64ebd320a",
+      "size": 56707,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/ecb34886af9e310408e46f058e1384e64ebd320a"
+    },
+    {
+      "path": "public/assets/video/truefocus.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e563107bc71c8a9be8c2b1a8ca53e92959864a85",
+      "size": 44797,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/e563107bc71c8a9be8c2b1a8ca53e92959864a85"
+    },
+    {
+      "path": "public/assets/video/truefocus.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04d2d2c1b79873000ce2027a6dbb6b8b88437a13",
+      "size": 44444,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/04d2d2c1b79873000ce2027a6dbb6b8b88437a13"
+    },
+    {
+      "path": "public/assets/video/variableproximity.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec849d79f703658b55c4f40e3d4c8722e10f8325",
+      "size": 67496,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/ec849d79f703658b55c4f40e3d4c8722e10f8325"
+    },
+    {
+      "path": "public/assets/video/variableproximity.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df06c363cc737dc183b559b8d8ea13482c1e13bf",
+      "size": 67583,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/df06c363cc737dc183b559b8d8ea13482c1e13bf"
+    },
+    {
+      "path": "public/assets/video/waves.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "947f1aa2ad15fa32c44d6b17fb3544b5cd03c21a",
+      "size": 98480,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/947f1aa2ad15fa32c44d6b17fb3544b5cd03c21a"
+    },
+    {
+      "path": "public/assets/video/waves.webm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "788cb155a3df0d5b46a90025fff3c30ee44064b5",
+      "size": 95344,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/788cb155a3df0d5b46a90025fff3c30ee44064b5"
+    },
+    {
+      "path": "public/favicon-16x16.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c87956238ca34cd543eb555744d69e74cb10f89a",
+      "size": 635,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/c87956238ca34cd543eb555744d69e74cb10f89a"
+    },
+    {
+      "path": "public/favicon-32x32.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c66e47fefc30feb89e1f606bc3541f80995c29e",
+      "size": 1508,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/2c66e47fefc30feb89e1f606bc3541f80995c29e"
+    },
+    {
+      "path": "public/favicon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9be49cb2c55b94f549128103d976cef715b70296",
+      "size": 15406,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/9be49cb2c55b94f549128103d976cef715b70296"
+    },
+    {
+      "path": "public/llms.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7b8f0fb6b5fede0fffae53202d3ba407b64a46e",
+      "size": 22098,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/f7b8f0fb6b5fede0fffae53202d3ba407b64a46e"
+    },
+    {
+      "path": "public/og-pic.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6199648888cafb44555d1f091d3f48dc3451a83f",
+      "size": 1017959,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/6199648888cafb44555d1f091d3f48dc3451a83f"
+    },
+    {
+      "path": "public/r",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0f274487ecb948837181bd04c1340912ba5ea051",
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/trees/0f274487ecb948837181bd04c1340912ba5ea051"
+    },
+    {
+      "path": "public/r/ASCIIText-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0588c795a031bd0e48500f0e01fa8ab3eb389971",
+      "size": 15982,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/0588c795a031bd0e48500f0e01fa8ab3eb389971"
+    },
+    {
+      "path": "public/r/ASCIIText-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d34e9d39ff71637702e7fa8472a553687716163c",
+      "size": 15919,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/d34e9d39ff71637702e7fa8472a553687716163c"
+    },
+    {
+      "path": "public/r/ASCIIText-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c298787bd3c880f2f8a94d2c58964aa78242f445",
+      "size": 18414,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/c298787bd3c880f2f8a94d2c58964aa78242f445"
+    },
+    {
+      "path": "public/r/ASCIIText-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb16ee55d1b902b02633ac91789dcf0d65c9f977",
+      "size": 18486,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/bb16ee55d1b902b02633ac91789dcf0d65c9f977"
+    },
+    {
+      "path": "public/r/AnimatedContent-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98bfe52acad154ca203dd293e69b3f22ec5c2da6",
+      "size": 3110,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/98bfe52acad154ca203dd293e69b3f22ec5c2da6"
+    },
+    {
+      "path": "public/r/AnimatedContent-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "593cea0fb3037ba88bd1b1fa64aada7549b63f5a",
+      "size": 3091,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/593cea0fb3037ba88bd1b1fa64aada7549b63f5a"
+    },
+    {
+      "path": "public/r/AnimatedContent-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21605929150aac73b7fad787bf105ac5552b84ae",
+      "size": 3775,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/21605929150aac73b7fad787bf105ac5552b84ae"
+    },
+    {
+      "path": "public/r/AnimatedContent-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25677185ff97eda37bd248af7e74e21476bc888a",
+      "size": 3734,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/25677185ff97eda37bd248af7e74e21476bc888a"
+    },
+    {
+      "path": "public/r/AnimatedList-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b3dd48a6f1493faa6968ddc7e3328f7205fac92",
+      "size": 6770,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/7b3dd48a6f1493faa6968ddc7e3328f7205fac92"
+    },
+    {
+      "path": "public/r/AnimatedList-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfd8e43d7a86147664d6fcb5357644b5e2a2dde0",
+      "size": 6208,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/dfd8e43d7a86147664d6fcb5357644b5e2a2dde0"
+    },
+    {
+      "path": "public/r/AnimatedList-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32bfa92c37e403bcf29702241783343757c71c1b",
+      "size": 7552,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/32bfa92c37e403bcf29702241783343757c71c1b"
+    },
+    {
+      "path": "public/r/AnimatedList-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddd4f872290f741e8f4dec800147f98037e8b0e1",
+      "size": 6954,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/ddd4f872290f741e8f4dec800147f98037e8b0e1"
+    },
+    {
+      "path": "public/r/Antigravity-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "389f20d625555fd2ff16452c2fcb085123bf99b2",
+      "size": 6218,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/389f20d625555fd2ff16452c2fcb085123bf99b2"
+    },
+    {
+      "path": "public/r/Antigravity-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f914bbd60db8d2e0cf65c1379288f73679a87e36",
+      "size": 6217,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/f914bbd60db8d2e0cf65c1379288f73679a87e36"
+    },
+    {
+      "path": "public/r/Antigravity-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "330e70638b9d06b4985fb17514b492c6dd768e72",
+      "size": 6700,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/330e70638b9d06b4985fb17514b492c6dd768e72"
+    },
+    {
+      "path": "public/r/Antigravity-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62202fda2dc30b0f0601b7c25dbe443344532cee",
+      "size": 6699,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/62202fda2dc30b0f0601b7c25dbe443344532cee"
+    },
+    {
+      "path": "public/r/Aurora-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0521aa4ab62486a0e3de9aff79aa540c667ec3bf",
+      "size": 6377,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/0521aa4ab62486a0e3de9aff79aa540c667ec3bf"
+    },
+    {
+      "path": "public/r/Aurora-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d953202c78946819ffbe23264e75648c9547b444",
+      "size": 6199,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/d953202c78946819ffbe23264e75648c9547b444"
+    },
+    {
+      "path": "public/r/Aurora-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e4d8e4e2e32de5eb66d6a573975a8309070cc68",
+      "size": 6583,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/5e4d8e4e2e32de5eb66d6a573975a8309070cc68"
+    },
+    {
+      "path": "public/r/Aurora-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cce137e8a28f523dabf6db2e6bc81c2f3b28f6f",
+      "size": 6405,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/6cce137e8a28f523dabf6db2e6bc81c2f3b28f6f"
+    },
+    {
+      "path": "public/r/Balatro-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c03e233590ccfda9f431601821877718b098a3c1",
+      "size": 6999,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/c03e233590ccfda9f431601821877718b098a3c1"
+    },
+    {
+      "path": "public/r/Balatro-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "298e2bd63d6b6cbe4658f016b929632aa83c8318",
+      "size": 6816,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/298e2bd63d6b6cbe4658f016b929632aa83c8318"
+    },
+    {
+      "path": "public/r/Balatro-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8efd9b1e61b297cdb1d2637e52e3459e3493c8ec",
+      "size": 7428,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/8efd9b1e61b297cdb1d2637e52e3459e3493c8ec"
+    },
+    {
+      "path": "public/r/Balatro-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "763229ab9e0760ab7b0e6f32a3ccfccd72531fb2",
+      "size": 7245,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/763229ab9e0760ab7b0e6f32a3ccfccd72531fb2"
+    },
+    {
+      "path": "public/r/Ballpit-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6779a2e1a5a43c68fd051bbff3af3ce5c6c52b42",
+      "size": 21545,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/6779a2e1a5a43c68fd051bbff3af3ce5c6c52b42"
+    },
+    {
+      "path": "public/r/Ballpit-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28fc5164e7a6c3a57ff228993ec24e5d70156269",
+      "size": 21521,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/28fc5164e7a6c3a57ff228993ec24e5d70156269"
+    },
+    {
+      "path": "public/r/Ballpit-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e57686b6c276ff43ec5889ff4bf99a28da8f2d69",
+      "size": 29026,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/e57686b6c276ff43ec5889ff4bf99a28da8f2d69"
+    },
+    {
+      "path": "public/r/Ballpit-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf9b1360e0380ab23126f8cab3a0db0fadb69af3",
+      "size": 28754,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/cf9b1360e0380ab23126f8cab3a0db0fadb69af3"
+    },
+    {
+      "path": "public/r/Beams-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a357e9a3846b989b15cc25c8ebc76d1772d26f1",
+      "size": 11359,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/0a357e9a3846b989b15cc25c8ebc76d1772d26f1"
+    },
+    {
+      "path": "public/r/Beams-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19457af2700bc1857449f30ca07a0c526de63e9f",
+      "size": 11172,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/19457af2700bc1857449f30ca07a0c526de63e9f"
+    },
+    {
+      "path": "public/r/Beams-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15abe7797df30a9adcfc5f6cfd9172ec9ff08127",
+      "size": 13253,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/15abe7797df30a9adcfc5f6cfd9172ec9ff08127"
+    },
+    {
+      "path": "public/r/Beams-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f21167682bca1c98197c4198f1d955f7fb0c94d2",
+      "size": 13066,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/f21167682bca1c98197c4198f1d955f7fb0c94d2"
+    },
+    {
+      "path": "public/r/BlobCursor-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29dfa6729bfc559b79ab0ef4f76b880b3b9db4b6",
+      "size": 4501,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/29dfa6729bfc559b79ab0ef4f76b880b3b9db4b6"
+    },
+    {
+      "path": "public/r/BlobCursor-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fe0760ddf15205b62d32fe57ece4733efa8eab8",
+      "size": 4099,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/2fe0760ddf15205b62d32fe57ece4733efa8eab8"
+    },
+    {
+      "path": "public/r/BlobCursor-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea761f4143f6e0b58c5dd8ba31649596153944fd",
+      "size": 5223,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/ea761f4143f6e0b58c5dd8ba31649596153944fd"
+    },
+    {
+      "path": "public/r/BlobCursor-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bcf374cf8bcd87e09064326cf8b295899a7c768",
+      "size": 4821,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/7bcf374cf8bcd87e09064326cf8b295899a7c768"
+    },
+    {
+      "path": "public/r/BlurText-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a209926258332156454b437b4c7da901aaeaf3fd",
+      "size": 3404,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/a209926258332156454b437b4c7da901aaeaf3fd"
+    },
+    {
+      "path": "public/r/BlurText-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ff19bf9ad2ebcc51a89a8b06620e55f8ea42b6b",
+      "size": 3387,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/0ff19bf9ad2ebcc51a89a8b06620e55f8ea42b6b"
+    },
+    {
+      "path": "public/r/BlurText-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc0c432aaed7237ba750811799e5940d334c45f3",
+      "size": 4120,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/cc0c432aaed7237ba750811799e5940d334c45f3"
+    },
+    {
+      "path": "public/r/BlurText-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a65b1758487e3de641f06099d00c5bbf757c5d9c",
+      "size": 4107,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/a65b1758487e3de641f06099d00c5bbf757c5d9c"
+    },
+    {
+      "path": "public/r/BorderGlow-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5badf28001fbeab6b2476a688457477ddcaf7e45",
+      "size": 12143,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/5badf28001fbeab6b2476a688457477ddcaf7e45"
+    },
+    {
+      "path": "public/r/BorderGlow-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b13adca2882e725ecc8e47f9a13a5d99e3317bec",
+      "size": 10210,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/b13adca2882e725ecc8e47f9a13a5d99e3317bec"
+    },
+    {
+      "path": "public/r/BorderGlow-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e7820cd50aea008a0f26d8168980d36b16d22c9",
+      "size": 13054,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/8e7820cd50aea008a0f26d8168980d36b16d22c9"
+    },
+    {
+      "path": "public/r/BorderGlow-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ce332d4784271910fb2b722e1fd1f8011180023",
+      "size": 11119,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/4ce332d4784271910fb2b722e1fd1f8011180023"
+    },
+    {
+      "path": "public/r/BounceCards-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efe89a066446e3c406d17fe79bf812747f252d70",
+      "size": 4938,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/efe89a066446e3c406d17fe79bf812747f252d70"
+    },
+    {
+      "path": "public/r/BounceCards-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64a55fcc3da2fd3eeb94d7fff6ac741cf9f2afa6",
+      "size": 4530,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/64a55fcc3da2fd3eeb94d7fff6ac741cf9f2afa6"
+    },
+    {
+      "path": "public/r/BounceCards-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f157565bc12d13afc7bfa00ecab99f46088189f",
+      "size": 5265,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/0f157565bc12d13afc7bfa00ecab99f46088189f"
+    },
+    {
+      "path": "public/r/BounceCards-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a81f956eeea47da85f4cc929df6307e342b1e79",
+      "size": 4892,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/5a81f956eeea47da85f4cc929df6307e342b1e79"
+    },
+    {
+      "path": "public/r/BubbleMenu-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7b22bdeaaffa36d562de71dba338d12059881bb",
+      "size": 12453,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/f7b22bdeaaffa36d562de71dba338d12059881bb"
+    },
+    {
+      "path": "public/r/BubbleMenu-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b113d1e1c49d4a396b15472926c743cc9ed0a9d2",
+      "size": 12483,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/b113d1e1c49d4a396b15472926c743cc9ed0a9d2"
+    },
+    {
+      "path": "public/r/BubbleMenu-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60f502aeb62b4fe82e257e9d4d8222e5e661af0a",
+      "size": 13217,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/60f502aeb62b4fe82e257e9d4d8222e5e661af0a"
+    },
+    {
+      "path": "public/r/BubbleMenu-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79ffeae46721f435d54845270d4da269c8e44e00",
+      "size": 13318,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/79ffeae46721f435d54845270d4da269c8e44e00"
+    },
+    {
+      "path": "public/r/CardNav-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61639676bc2b9c2395fa08e4a06095e5670fb214",
+      "size": 9873,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/61639676bc2b9c2395fa08e4a06095e5670fb214"
+    },
+    {
+      "path": "public/r/CardNav-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6b808a758e197e503337b80eda75a317e29ab27",
+      "size": 8152,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/e6b808a758e197e503337b80eda75a317e29ab27"
+    },
+    {
+      "path": "public/r/CardNav-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cde99fd5f1220050c4abc1c35786dc42a54c674",
+      "size": 10349,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/2cde99fd5f1220050c4abc1c35786dc42a54c674"
+    },
+    {
+      "path": "public/r/CardNav-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba8309fb74d0978e69ed4a3a0b9d8de0e371cfd3",
+      "size": 8628,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/ba8309fb74d0978e69ed4a3a0b9d8de0e371cfd3"
+    },
+    {
+      "path": "public/r/CardSwap-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d2bada42aaf3fd8a7d0a0c35340740476000c0a",
+      "size": 6167,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/4d2bada42aaf3fd8a7d0a0c35340740476000c0a"
+    },
+    {
+      "path": "public/r/CardSwap-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "534082416ad374c17b208868a3ffbb0cdf2f5ca2",
+      "size": 5823,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/534082416ad374c17b208868a3ffbb0cdf2f5ca2"
+    },
+    {
+      "path": "public/r/CardSwap-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1045020b9c2cd65a6dc4825249b5deac80b054ef",
+      "size": 6995,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/1045020b9c2cd65a6dc4825249b5deac80b054ef"
+    },
+    {
+      "path": "public/r/CardSwap-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba085e1119e1520bc31a74ccf14443e1eb9b9322",
+      "size": 6649,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/ba085e1119e1520bc31a74ccf14443e1eb9b9322"
+    },
+    {
+      "path": "public/r/Carousel-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e90e12208961f6ba919fa0bcd0cd7a6f4c233164",
+      "size": 11075,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/e90e12208961f6ba919fa0bcd0cd7a6f4c233164"
+    },
+    {
+      "path": "public/r/Carousel-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0818b2fc801576abd2d3c1eaedcf25ce73127c38",
+      "size": 9368,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/0818b2fc801576abd2d3c1eaedcf25ce73127c38"
+    },
+    {
+      "path": "public/r/Carousel-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01291cf5f104aa197fdf0decd1965c375ce4023d",
+      "size": 11772,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/01291cf5f104aa197fdf0decd1965c375ce4023d"
+    },
+    {
+      "path": "public/r/Carousel-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "389d5bff2949bfc5ed97f050370d3d3b6c9abf01",
+      "size": 10095,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/389d5bff2949bfc5ed97f050370d3d3b6c9abf01"
+    },
+    {
+      "path": "public/r/ChromaGrid-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a60dccb37290aa2a51899698e3ef809ea0d36baa",
+      "size": 9306,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/a60dccb37290aa2a51899698e3ef809ea0d36baa"
+    },
+    {
+      "path": "public/r/ChromaGrid-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6c330b19a9401d3cf02c441ad3ca7aa029e9a62",
+      "size": 7602,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/a6c330b19a9401d3cf02c441ad3ca7aa029e9a62"
+    },
+    {
+      "path": "public/r/ChromaGrid-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d9f97b6421bcd545535007c7445fc3e7730e18f",
+      "size": 10109,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/1d9f97b6421bcd545535007c7445fc3e7730e18f"
+    },
+    {
+      "path": "public/r/ChromaGrid-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "260ee8ab1de04ddc0f67fc6f1d7563dfd7e46f81",
+      "size": 8385,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/260ee8ab1de04ddc0f67fc6f1d7563dfd7e46f81"
+    },
+    {
+      "path": "public/r/CircularGallery-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df3e548cf4b8b326af68f56782a298cb1bbce658",
+      "size": 17205,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/df3e548cf4b8b326af68f56782a298cb1bbce658"
+    },
+    {
+      "path": "public/r/CircularGallery-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e71be01ebb01f3a69a7d0be50731e765cb598559",
+      "size": 16959,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/e71be01ebb01f3a69a7d0be50731e765cb598559"
+    },
+    {
+      "path": "public/r/CircularGallery-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19619ed938c5f1703985b35d524ac94fb69efdf2",
+      "size": 21078,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/19619ed938c5f1703985b35d524ac94fb69efdf2"
+    },
+    {
+      "path": "public/r/CircularGallery-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d1499f61773c5b98e0a9cd038930cea533d5a51",
+      "size": 20876,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/1d1499f61773c5b98e0a9cd038930cea533d5a51"
+    },
+    {
+      "path": "public/r/CircularText-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f2438cb907e0d4639fe5116a7dbce5b1c3bbb1a",
+      "size": 3992,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/0f2438cb907e0d4639fe5116a7dbce5b1c3bbb1a"
+    },
+    {
+      "path": "public/r/CircularText-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49a0c5292fbbee6f9cc840c0de25cb9d085c5f05",
+      "size": 3573,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/49a0c5292fbbee6f9cc840c0de25cb9d085c5f05"
+    },
+    {
+      "path": "public/r/CircularText-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6b4b407b7e081000db4e4bf1d562cb62e57694d",
+      "size": 4250,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/f6b4b407b7e081000db4e4bf1d562cb62e57694d"
+    },
+    {
+      "path": "public/r/CircularText-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee4b59d5ad4b088792570214f7ad9705c95b3db3",
+      "size": 3913,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/ee4b59d5ad4b088792570214f7ad9705c95b3db3"
+    },
+    {
+      "path": "public/r/ClickSpark-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e379040c75730adb8d701f59ff6b1c2c8b39b267",
+      "size": 4362,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/e379040c75730adb8d701f59ff6b1c2c8b39b267"
+    },
+    {
+      "path": "public/r/ClickSpark-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ed5c5fda23b3b5a01c8b88892e2ed2113d215d5",
+      "size": 4104,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/3ed5c5fda23b3b5a01c8b88892e2ed2113d215d5"
+    },
+    {
+      "path": "public/r/ClickSpark-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b392163286a24bd1153e7ce88111442f5b0e893d",
+      "size": 4813,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/b392163286a24bd1153e7ce88111442f5b0e893d"
+    },
+    {
+      "path": "public/r/ClickSpark-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dd9d0dcfc4790c57c17b64f41f6e89267dbab6e",
+      "size": 4649,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/6dd9d0dcfc4790c57c17b64f41f6e89267dbab6e"
+    },
+    {
+      "path": "public/r/ColorBends-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ed5daceae0c0d4e1df6c1082e646ffc2e0b9699",
+      "size": 10730,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/8ed5daceae0c0d4e1df6c1082e646ffc2e0b9699"
+    },
+    {
+      "path": "public/r/ColorBends-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2af6396d2fd5cb4a31d5e0c0bb7fd56b25e93ed8",
+      "size": 10574,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/2af6396d2fd5cb4a31d5e0c0bb7fd56b25e93ed8"
+    },
+    {
+      "path": "public/r/ColorBends-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdbd60d90a727c53fc168dc3d525994fcc2d20f8",
+      "size": 11336,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/bdbd60d90a727c53fc168dc3d525994fcc2d20f8"
+    },
+    {
+      "path": "public/r/ColorBends-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56bc833c91bb9d6e9b9b4dff7887fc4875fdc9f6",
+      "size": 11119,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/56bc833c91bb9d6e9b9b4dff7887fc4875fdc9f6"
+    },
+    {
+      "path": "public/r/CountUp-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da402ddd65b5a70f1f13a661735bcbe10e9b99b3",
+      "size": 3050,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/da402ddd65b5a70f1f13a661735bcbe10e9b99b3"
+    },
+    {
+      "path": "public/r/CountUp-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "468c448da4b9c3b88adf939dcdda2d61c83bb103",
+      "size": 3049,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/468c448da4b9c3b88adf939dcdda2d61c83bb103"
+    },
+    {
+      "path": "public/r/CountUp-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6eb71cee58a2faaf5b2efff0b87441b4af2e532a",
+      "size": 3440,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/6eb71cee58a2faaf5b2efff0b87441b4af2e532a"
+    },
+    {
+      "path": "public/r/CountUp-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d7928892fd4ab6c7461fcc4866fcd5c37e60ee5",
+      "size": 3439,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/6d7928892fd4ab6c7461fcc4866fcd5c37e60ee5"
+    },
+    {
+      "path": "public/r/Counter-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64c449254e5ef873c735edb7e699e17f4303ea62",
+      "size": 4751,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/64c449254e5ef873c735edb7e699e17f4303ea62"
+    },
+    {
+      "path": "public/r/Counter-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2591ffc9586e4b2c2b3d7a63086c1f3d961097a7",
+      "size": 4515,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/2591ffc9586e4b2c2b3d7a63086c1f3d961097a7"
+    },
+    {
+      "path": "public/r/Counter-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abbbde17fb0c6e82aacdac40c933b2d38c399332",
+      "size": 5843,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/abbbde17fb0c6e82aacdac40c933b2d38c399332"
+    },
+    {
+      "path": "public/r/Counter-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afb09960c91fa2f0f72b911947c9f8ae19444cb4",
+      "size": 5844,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/afb09960c91fa2f0f72b911947c9f8ae19444cb4"
+    },
+    {
+      "path": "public/r/Crosshair-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c91e2fe4c9987cc87eaa3ea6b7089c4ef22d82ca",
+      "size": 6523,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/c91e2fe4c9987cc87eaa3ea6b7089c4ef22d82ca"
+    },
+    {
+      "path": "public/r/Crosshair-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd612d1cb31a6290bffa407753f19764645084ab",
+      "size": 5969,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/cd612d1cb31a6290bffa407753f19764645084ab"
+    },
+    {
+      "path": "public/r/Crosshair-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "568e7d6272006adde571efd8172032709d242879",
+      "size": 7360,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/568e7d6272006adde571efd8172032709d242879"
+    },
+    {
+      "path": "public/r/Crosshair-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d02176cb18603cbb797185572d48257bc84ee879",
+      "size": 6919,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/d02176cb18603cbb797185572d48257bc84ee879"
+    },
+    {
+      "path": "public/r/Cubes-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8e606122f6feadb9f389b4e4181eba3c5990d30",
+      "size": 11502,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/d8e606122f6feadb9f389b4e4181eba3c5990d30"
+    },
+    {
+      "path": "public/r/Cubes-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f40f195be0043e80b2e05b80b08b6022194c622",
+      "size": 12183,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/8f40f195be0043e80b2e05b80b08b6022194c622"
+    },
+    {
+      "path": "public/r/Cubes-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "196e4ddc419afa2f6b30841160f47fc18cce7be0",
+      "size": 12595,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/196e4ddc419afa2f6b30841160f47fc18cce7be0"
+    },
+    {
+      "path": "public/r/Cubes-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9b01ad350b983ef3b223a5cc5f1c16b2086a3ee",
+      "size": 13276,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/f9b01ad350b983ef3b223a5cc5f1c16b2086a3ee"
+    },
+    {
+      "path": "public/r/CurvedLoop-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2970162357637244de161e1a8a1d58a80b5930f1",
+      "size": 5302,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/2970162357637244de161e1a8a1d58a80b5930f1"
+    },
+    {
+      "path": "public/r/CurvedLoop-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e836b927cd0af9a134201016332228663d0540f0",
+      "size": 4861,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/e836b927cd0af9a134201016332228663d0540f0"
+    },
+    {
+      "path": "public/r/CurvedLoop-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "195eeec2591682263854ba81e91e46ef40c61a71",
+      "size": 5656,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/195eeec2591682263854ba81e91e46ef40c61a71"
+    },
+    {
+      "path": "public/r/CurvedLoop-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cad61d223c5b06d1cc04a643ee2ab66f94557969",
+      "size": 5225,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/cad61d223c5b06d1cc04a643ee2ab66f94557969"
+    },
+    {
+      "path": "public/r/DarkVeil-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b41ffe97e0f901a913b3adcb254d65bca160405",
+      "size": 12247,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/9b41ffe97e0f901a913b3adcb254d65bca160405"
+    },
+    {
+      "path": "public/r/DarkVeil-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "784ae4926bfa688e12c32a24da790d4b0831b502",
+      "size": 12054,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/784ae4926bfa688e12c32a24da790d4b0831b502"
+    },
+    {
+      "path": "public/r/DarkVeil-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "267c60db6d833272d74be9258ed86bbfd420a580",
+      "size": 12515,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/267c60db6d833272d74be9258ed86bbfd420a580"
+    },
+    {
+      "path": "public/r/DarkVeil-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2682fb8b327225e519fd5e7c1e7f047f359720dc",
+      "size": 12322,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/2682fb8b327225e519fd5e7c1e7f047f359720dc"
+    },
+    {
+      "path": "public/r/DecayCard-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33fd0942db7d25447e84fb29314d182900021b7f",
+      "size": 5359,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/33fd0942db7d25447e84fb29314d182900021b7f"
+    },
+    {
+      "path": "public/r/DecayCard-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c76456d20d02424acc3a2922a57c5d95530a5252",
+      "size": 5001,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/c76456d20d02424acc3a2922a57c5d95530a5252"
+    },
+    {
+      "path": "public/r/DecayCard-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e28a374dfd887932798678b3ee7bef139e1ad49",
+      "size": 5877,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/4e28a374dfd887932798678b3ee7bef139e1ad49"
+    },
+    {
+      "path": "public/r/DecayCard-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce49c7114e922cee1152fe3fc9de0f595484a9f0",
+      "size": 5537,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/ce49c7114e922cee1152fe3fc9de0f595484a9f0"
+    },
+    {
+      "path": "public/r/DecryptedText-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23cfe85a5b4da7b0313d1815181f796ffdbea815",
+      "size": 11998,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/23cfe85a5b4da7b0313d1815181f796ffdbea815"
+    },
+    {
+      "path": "public/r/DecryptedText-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e360243e76ba8cfdc0e952f8adce0d92b0552b97",
+      "size": 11711,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/e360243e76ba8cfdc0e952f8adce0d92b0552b97"
+    },
+    {
+      "path": "public/r/DecryptedText-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47f4cd6ada044f55b0e490eb592b7979c5f1eb56",
+      "size": 12870,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/47f4cd6ada044f55b0e490eb592b7979c5f1eb56"
+    },
+    {
+      "path": "public/r/DecryptedText-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90646f75962e1cfd7fa69d1a2ab5bf04f16ea79d",
+      "size": 12593,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/90646f75962e1cfd7fa69d1a2ab5bf04f16ea79d"
+    },
+    {
+      "path": "public/r/Dither-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "041a25a55126f631c7606ff0e38a8d50d4965450",
+      "size": 10032,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/041a25a55126f631c7606ff0e38a8d50d4965450"
+    },
+    {
+      "path": "public/r/Dither-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b56e28f08d1b1d78989c437a7f6393704ce301c9",
+      "size": 9840,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/b56e28f08d1b1d78989c437a7f6393704ce301c9"
+    },
+    {
+      "path": "public/r/Dither-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "844b37dfbdff74596bf3991bf279a70b74c1f286",
+      "size": 11422,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/844b37dfbdff74596bf3991bf279a70b74c1f286"
+    },
+    {
+      "path": "public/r/Dither-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05bb6cb5ca3edff93a644a7c138fb889b8807e59",
+      "size": 11240,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/05bb6cb5ca3edff93a644a7c138fb889b8807e59"
+    },
+    {
+      "path": "public/r/Dock-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ae0f3041b4595656f38f7bac5f24182e6f518f0",
+      "size": 5468,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/4ae0f3041b4595656f38f7bac5f24182e6f518f0"
+    },
+    {
+      "path": "public/r/Dock-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed7d9f58efe7d262eb83e41c632489fd9aa1aef1",
+      "size": 4615,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/ed7d9f58efe7d262eb83e41c632489fd9aa1aef1"
+    },
+    {
+      "path": "public/r/Dock-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "524442a5deda43fd1d8965e315e83a5a63b547ec",
+      "size": 6610,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/524442a5deda43fd1d8965e315e83a5a63b547ec"
+    },
+    {
+      "path": "public/r/Dock-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9331c1e8ba4d6b95886e89629b120851d8f3fa11",
+      "size": 5730,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/9331c1e8ba4d6b95886e89629b120851d8f3fa11"
+    },
+    {
+      "path": "public/r/DomeGallery-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "779d233df9788d5af9762936c9beebd41be30a72",
+      "size": 30398,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/779d233df9788d5af9762936c9beebd41be30a72"
+    },
+    {
+      "path": "public/r/DomeGallery-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c6f52f98ad636eb9dad3c671311d564c67e78e8",
+      "size": 33551,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/0c6f52f98ad636eb9dad3c671311d564c67e78e8"
+    },
+    {
+      "path": "public/r/DomeGallery-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3ec77d248d625a67ac469fda5039b961ce778a0",
+      "size": 32157,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/d3ec77d248d625a67ac469fda5039b961ce778a0"
+    },
+    {
+      "path": "public/r/DomeGallery-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae8edf2f0290980d1020e05e91e9444cb7f34bd7",
+      "size": 35138,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/ae8edf2f0290980d1020e05e91e9444cb7f34bd7"
+    },
+    {
+      "path": "public/r/DotGrid-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72a223a22c2d123edc3443d32a3376eec54aeeb3",
+      "size": 8807,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/72a223a22c2d123edc3443d32a3376eec54aeeb3"
+    },
+    {
+      "path": "public/r/DotGrid-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a160f1029c2d710039a1cd326b947161c328bbaa",
+      "size": 8430,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/a160f1029c2d710039a1cd326b947161c328bbaa"
+    },
+    {
+      "path": "public/r/DotGrid-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80dbdbaadbfa4ef913525a4a878d3ad8d5a3da88",
+      "size": 9505,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/80dbdbaadbfa4ef913525a4a878d3ad8d5a3da88"
+    },
+    {
+      "path": "public/r/DotGrid-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44ea913c89000c222d54687bd412176d1fb55b1b",
+      "size": 9118,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/44ea913c89000c222d54687bd412176d1fb55b1b"
+    },
+    {
+      "path": "public/r/ElasticSlider-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9ba3a9cf4975143f98a397c2f80e364e9dbe39c",
+      "size": 7353,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/d9ba3a9cf4975143f98a397c2f80e364e9dbe39c"
+    },
+    {
+      "path": "public/r/ElasticSlider-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e12118f5b2e62092cdf3d58757279f8274fb307",
+      "size": 6119,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/1e12118f5b2e62092cdf3d58757279f8274fb307"
+    },
+    {
+      "path": "public/r/ElasticSlider-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db83bfa842ad170d1cff67c34171f106c10b2903",
+      "size": 8138,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/db83bfa842ad170d1cff67c34171f106c10b2903"
+    },
+    {
+      "path": "public/r/ElasticSlider-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3bac883b4a20bb3e2db89e1888517ea561788de",
+      "size": 6906,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/c3bac883b4a20bb3e2db89e1888517ea561788de"
+    },
+    {
+      "path": "public/r/ElectricBorder-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8af5ad68181589b2e11bd4a264922a79ebf6b7ec",
+      "size": 10787,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/8af5ad68181589b2e11bd4a264922a79ebf6b7ec"
+    },
+    {
+      "path": "public/r/ElectricBorder-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "282fe05ac819410b8b0cf152349040a44408fa51",
+      "size": 10128,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/282fe05ac819410b8b0cf152349040a44408fa51"
+    },
+    {
+      "path": "public/r/ElectricBorder-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a68e5d51113ec2daf140e65a7c4675eb30e6e90",
+      "size": 11163,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/5a68e5d51113ec2daf140e65a7c4675eb30e6e90"
+    },
+    {
+      "path": "public/r/ElectricBorder-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a58f20a5f7a3cb4edb2db56de1c803535960200",
+      "size": 10904,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/6a58f20a5f7a3cb4edb2db56de1c803535960200"
+    },
+    {
+      "path": "public/r/EvilEye-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bf05ec061d113baa7b39ff3e3068a4fc08a3a41",
+      "size": 9018,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/2bf05ec061d113baa7b39ff3e3068a4fc08a3a41"
+    },
+    {
+      "path": "public/r/EvilEye-JS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5eac37858c0ed2b2f12e646e67e4506aede407c",
+      "size": 8835,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/d5eac37858c0ed2b2f12e646e67e4506aede407c"
+    },
+    {
+      "path": "public/r/EvilEye-TS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cad2755cacc9097d6ce3f891c71816400aa52230",
+      "size": 9473,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/cad2755cacc9097d6ce3f891c71816400aa52230"
+    },
+    {
+      "path": "public/r/EvilEye-TS-TW.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bfe4b5c70d0630b88e4706fa91c2b824cf907d7",
+      "size": 9290,
+      "url": "https://api.github.com/repos/DavidHDev/react-bits/git/blobs/6bfe4b5c70d0630b88e4706fa91c2b824cf907d7"
+    },
+    {
+      "path": "public/r/FadeContent-JS-CSS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3aa1f6701e74c6654d3ee373e61e82753acfdffa",
+ 

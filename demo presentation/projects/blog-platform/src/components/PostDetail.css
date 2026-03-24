@@ -1,0 +1,43 @@
+.post-detail {
+  max-width: 800px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 2rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.post-content {
+  background: var(--bg-secondary);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border: 1px solid var(--border);
+}
+
+.post-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.post-meta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.post-body {
+  line-height: 1.8;
+  color: var(--text-secondary);
+}
+
+.post-body p {
+  margin-bottom: 1rem;
+}
+
+
+

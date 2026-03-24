@@ -1,0 +1,24 @@
+.status-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.status-badge.pending {
+  background: rgba(255, 152, 0, 0.2);
+  color: var(--warning);
+}
+
+.status-badge.completed {
+  background: rgba(76, 175, 80, 0.2);
+  color: var(--success);
+}
+
+.status-badge.shipped {
+  background: rgba(74, 158, 255, 0.2);
+  color: var(--accent);
+}
+
+
+
