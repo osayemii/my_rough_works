@@ -97,10 +97,13 @@
 }
 
 @keyframes pulse {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 1;
     transform: translateY(-50%) scale(1);
   }
+
   50% {
     opacity: 0.5;
     transform: translateY(-50%) scale(1.5);
@@ -111,6 +114,10 @@
 
 
 
+
+.mobile-menu-header {
+  display: none;
+}
 
 .mobile-menu-toggle {
   display: none;
@@ -137,7 +144,7 @@
     width: 100%;
     top: 0;
   }
-  
+
   .desktop-only {
     display: none;
   }
@@ -162,7 +169,8 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     position: relative;
-    z-index: 1001; /* Stay above overlay if needed */
+    z-index: 1001;
+    /* Stay above overlay if needed */
   }
 
   .menu-overlay {
@@ -212,7 +220,8 @@
   }
 
   [data-theme="dark"] .nav-menu {
-    background-color: rgba(10, 14, 39, 0.95); /* Slightly translucent for glass effect */
+    background-color: rgba(10, 14, 39, 0.95);
+    /* Slightly translucent for glass effect */
   }
 
   [data-theme="light"] .nav-menu {
@@ -290,8 +299,7 @@
 }
 
 @media (max-width: 480px) {
-  .navbar {
-  }
+  .navbar {}
 
   .nav-logo {
     font-size: 0.9rem;
