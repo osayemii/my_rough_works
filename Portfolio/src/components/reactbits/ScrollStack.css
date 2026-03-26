@@ -36,7 +36,8 @@
   transform-style: preserve-3d;
   width: 100%;
   max-width: 700px;
-  height: 330px;
+  min-height: 330px;
+  height: auto;
   border-radius: 30px;
   box-sizing: border-box;
   background: transparent;
@@ -54,7 +55,7 @@
 @media (max-width: 768px) {
   .scroll-stack-card {
     height: auto;
-    min-height: 280px;
+    min-height: 350px;
     max-width: 100%;
   }
 }

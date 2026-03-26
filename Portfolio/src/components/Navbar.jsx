@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useTheme } from '../contexts/ThemeContext';
 import { FiMenu, FiX } from 'react-icons/fi';
 import FuzzyText from './reactbits/FuzzyText';
@@ -9,6 +9,7 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('hero');
   const { theme } = useTheme();
+  const menuRef = useRef(null);
 
   const logoColor = theme === 'dark' ? '#6496ff' : '#4f46e5';
 
@@ -17,8 +18,22 @@ const Navbar = () => {
       setIsScrolled(window.scrollY > 50);
     };
     window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+
+    const handleClickOutside = (event) => {
+      if (menuRef.current && !menuRef.current.contains(event.target) && !event.target.closest('.mobile-menu-toggle')) {
+        setIsMobileMenuOpen(false);
+      }
+    };
+
+    if (isMobileMenuOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isMobileMenuOpen]);
 
   useEffect(() => {
     const sections = ['hero', 'about', 'skills', 'projects', 'contact'];
@@ -80,7 +95,17 @@ const Navbar = () => {
           </FuzzyText>
         </div>
 
-        <ul className={`nav-menu ${isMobileMenuOpen ? 'active' : ''}`}>
+        <div 
+          className={`menu-overlay ${isMobileMenuOpen ? 'active' : ''}`} 
+          onClick={() => setIsMobileMenuOpen(false)}
+        ></div>
+
+        <ul className={`nav-menu ${isMobileMenuOpen ? 'active' : ''}`} ref={menuRef}>
+          <li className="mobile-menu-header">
+            <button className="close-menu" onClick={() => setIsMobileMenuOpen(false)}>
+              <FiX />
+            </button>
+          </li>
           <li>
             <a
               href="#about"
