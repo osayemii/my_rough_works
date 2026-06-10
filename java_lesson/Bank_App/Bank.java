@@ -2,11 +2,20 @@ package Bank_App;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.NoSuchElementException;
 
-public class Bank implements TransactionHistory{
+public class Bank implements TransactionHistory {
     private double balance;
     private double depositAmount;
     private double withdrawalAmount;
+    ArrayList<String> lists = new ArrayList<>();
+
+    // Colors
+    private static final String DEFAULT = "\u001B[0m";
+    private static final String RED = "\u001B[31m";
+    private static final String GREEN = "\u001B[32m";
+    private static final String YELLOW = "\u001B[33m";
+    private static final String BLUE = "\u001B[34m";
 
     public Bank() {
     }
@@ -17,10 +26,12 @@ public class Bank implements TransactionHistory{
 
     public void setDepositAmount(double depositAmount) {
         this.depositAmount = depositAmount;
+        lists.add("Deposited: " + depositAmount);
     }
 
     public void setWithdrawalAmount(double withdrawalAmount) {
         this.withdrawalAmount = withdrawalAmount;
+        lists.add("Withdrawed: " + withdrawalAmount);
     }
 
     public double getBalance() {
@@ -38,84 +49,102 @@ public class Bank implements TransactionHistory{
     @Override
     public void deposit(double amount) {
         if (amount <= 0) {
-            System.out.println("Sorry, you cannot deposit that amount");
+            System.out.println(YELLOW + "Sorry, you cannot deposit that amount" + DEFAULT);
         } else {
             balance += amount;
-            System.out.println("Deposited: $" + amount + ", Balance: $" + balance);
+            System.out.println(GREEN + "You have successfully deposited: $" + amount + DEFAULT);
+            lists.add("Deposited: $" + amount);
         }
     }
 
     @Override
     public void withdraw(double amount) {
         if (amount <= 0) {
-            System.out.println("Sorry, you cannot withdraw a negative amount!!");
+            System.out.println(YELLOW + "Sorry, you cannot withdraw a negative amount!!" + DEFAULT);
         } else {
             if (amount > balance) {
-                System.out.println("Insuffucient Funds!!");
+                System.out.println(YELLOW + "Insuffucient Funds!!" + DEFAULT);
+                lists.add("Insufficient funds of " + amount);
             } else {
                 balance -= amount;
-                System.out.println("Withdrawed: $" + amount + ", Balance: $" + balance);
+                System.out.println(GREEN + "You have successfully withdrawed: $" + amount + DEFAULT);
+                lists.add("Withdrawed: $" + amount);
             }
         }
     }
 
     @Override
     public void balance() {
-        System.out.println("Your balance is $" + balance);
+        System.out.println(GREEN + "Your balance is $" + balance + DEFAULT);
     }
 
     @Override
     public void transactionHistory() {
-        ArrayList<String> lists = new ArrayList<>();
-        lists.add("Nothing");
-        for (String list : lists) {
-            System.out.println(list);
+        // lists.add("Nothing");
+        if (lists.size() == 0) {
+            System.out.println(YELLOW + "No transaction to view yet" + DEFAULT);
+        } else {
+            for (String list : lists) {
+                System.out.println(GREEN + ". "+ list + DEFAULT);
+            }
         }
     }
 
     public void bankingTime() {
-        while (balance > 0) {
-            System.out.println("Welcome back to our bank!");
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            System.out.println(BLUE + "======= WELCOME BACK =======");
             System.out.println("1. Deposit");
             System.out.println("2. Withdraw");
             System.out.println("3. View Balance");
             System.out.println("4. Show transaction history");
             System.out.println("5. Exit");
-            System.out.print("Please select a choice: ");
+            System.out.println(BLUE + "============================");
+            
+            System.out.print("Please select a choice: " + DEFAULT);
 
-            Scanner scanner = new Scanner(System.in);
-            int choice = scanner.nextInt();
+            try {
+                int choice = scanner.nextInt();
+                switch (choice) {
+                    case 1:
+                        System.out.print(GREEN + "Enter amount: " + DEFAULT);
+                        double amount = scanner.nextDouble();
+                        deposit(amount);
+                        break;
 
-            switch (choice) {
-                case 1:
-                    System.out.print("Enter amount: ");
-                    int amount = scanner.nextInt();
-                    deposit(amount);
-                    break;
+                    case 2:
+                        System.out.print(GREEN + "Enter amount: " + DEFAULT);
+                        double amounts = scanner.nextDouble();
+                        withdraw(amounts);
+                        break;
 
-                case 2:
-                    System.out.print("Enter amount: ");
-                    int amounts = scanner.nextInt();
-                    withdraw(amounts);
-                    break;
+                    case 3:
+                        balance();
+                        break;
 
-                case 3:
-                    balance();
-                    break;
+                    case 4:
+                        transactionHistory();
+                        break;
 
-                case 4:
-                    break;
+                    case 5:
+                        System.out.println(GREEN + "Closing system..." + DEFAULT);
+                        try {
+                            Thread.sleep(500);
+                        } catch (InterruptedException e) {
+                            System.out.println(RED + "Error: " + e.getMessage() + DEFAULT);
+                        }
+                        System.exit(0);
+                        scanner.close();
+                        break;
 
-                case 5:
-                    System.exit(0);
-                    break;
+                    default:
+                        System.out.println(YELLOW + "Please enter a valid choice!" + DEFAULT);
+                        break;
+                }
 
-                default:
-                    System.out.println("Nothing here");
-                    break;
+            } catch (NoSuchElementException e) {
+                System.out.println(RED + "Error: " + e.getMessage() + DEFAULT);
             }
-
-            scanner.close();
 
         }
     }
