@@ -6,6 +6,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import { Analytics } from '@vercel/analytics/react';
 import './App.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Projects />
         <Contact />
       </div>
+      <Analytics />
     </ThemeProvider>
   );
 }
